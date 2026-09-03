@@ -1,0 +1,151 @@
+vobuda Licence 2.0
+
+Copyright (c) 2026 Gary. All rights reserved.
+
+vobuda is free of charge and its source code is not published. This licence
+covers the program as it is handed out — the builds on vobuda.com — and it is
+written to be read: what you may do, what you may not, and what to do if you
+need more.
+
+The source is closed because the program pays for itself another way: by
+carrying word of the copyright holder's other products. Nothing else is asked.
+Keep that part of the interface, and the program is yours to use for as long
+as this licence stands. By installing or using the program you accept these
+terms; if you do not, do not install it.
+
+"You" means the person or organisation using the program. An organisation may
+accept this licence for its staff; then each of them may do what section 1
+allows, and the organisation answers for section 2.
+
+
+1. WHAT YOU MAY DO
+
+You may, free of charge and for any purpose including your work and your
+business:
+
+  a. install and use the program;
+  b. run it on as many machines as you like, yours or your organisation's,
+     and install it on those machines from a copy kept inside the
+     organisation for that purpose;
+  c. configure it without limit — every setting is a file in your own folder,
+     and what you write in those files is yours;
+  d. write themes, looks, monitor skins, button sets, key maps, translations,
+     agent descriptions and other configuration files for it — including ones
+     that start from the files the program ships with — and share those with
+     anyone under any terms you choose, saying that they are for vobuda;
+  e. tell the copyright holder what is wrong with it and what you wish it did.
+
+
+2. WHAT YOU MAY NOT DO
+
+  a. You may not distribute the program to anyone outside your organisation,
+     in whole or in part, as it came or changed in any way — not the
+     installer, not the application, not a copy of either. Point them at
+     vobuda.com instead; it is free for them too.
+
+  b. You may not sell the program, sublicense it, rent or lend it, or let
+     anyone outside your organisation use it — on your machines, over a
+     network, or as a hosted or managed service.
+
+  c. The program has a place in its interface that tells you about the
+     copyright holder's other products. You may not remove, hide, cover,
+     shrink, block or alter it — by changing the program, by a theme or look,
+     by a network rule, or by any other means. A setting the program itself
+     offers for it is the one exception. This is the price of the program;
+     sections 1(c) and 1(d) do not override it.
+
+  d. You may not decompile, disassemble or reverse-engineer the program, or
+     otherwise try to recover its source, except where the law that applies
+     to you allows it regardless of this clause — for instance to make the
+     program work with other software. If that is what you need, ask first
+     (section 8); the information is usually easier to get by asking than by
+     decompiling.
+
+  e. You may not change the program itself, or make anything derived from it.
+     The files section 1 leaves to you — settings, themes, looks, skins,
+     button sets, key maps, translations, agent descriptions — are not the
+     program and are not covered by this rule.
+
+  f. You may not use the name "vobuda", the copyright holder's other product
+     names, or their logos as the name or brand of anything you distribute or
+     publish, or in a way that suggests the copyright holder made or endorsed
+     it. Saying that a theme or a skin is for vobuda is fine.
+
+  g. You may not remove or alter this licence, the copyright notice, or any
+     notice of authorship carried by the program.
+
+
+3. THE SOURCE CODE
+
+The source code is not published and is not licensed to you: this licence
+covers the builds only. If any source reaches you — a leak, an extract, a
+file left somewhere it should not have been — you have no right to keep, use,
+copy, change or pass it on; it remains the copyright holder's confidential
+property. Delete it, and if you can, say where it came from.
+
+People the copyright holder has given access to the repository may read and
+change the source for the purpose of sending changes back, on the terms in
+CONTRIBUTING.md, and for nothing else.
+
+
+4. WHAT THE PROGRAM IS BUILT ON
+
+The program contains libraries other people wrote and gave away under their
+own terms. Their names, versions, copyright lines and licence texts ship inside
+the program — the application menu has "What vobuda is built on", which opens
+the file NOTICES.md — and those terms, not this licence, govern those parts.
+
+
+5. WHAT THE PROGRAM SENDS
+
+The program checks vobuda.com for updates; that check carries no more than the
+program's version and the system it runs on. It sends nothing else about you
+unless you ask it to: a record of the program's own faults goes out only after
+you have turned that on, and never carries your work. What you do with the
+agents, tools and shells you run through the program is yours to answer for.
+
+
+6. IF THIS LICENCE IS BROKEN
+
+If you break section 2, your rights under section 1 end at once. They come
+back on their own if you put the breach right within 30 days of the copyright
+holder telling you about it in writing, unless the copyright holder has
+written in the meantime that this is not the first time. Once your rights have
+ended you must stop using the program and delete your copies. Sections 3 and
+7 to 9 survive.
+
+
+7. NO WARRANTY
+
+The program is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose and non-infringement. To the fullest extent
+the law allows, the copyright holder is not liable for any loss or damage
+arising from the program or its use — including lost data, lost profits and
+any indirect or consequential loss — whether in contract, tort or otherwise.
+Nothing in this licence excludes or limits liability that the law of your
+country does not allow to be excluded, and some laws give you rights that
+cannot be taken away by a licence; nothing here takes them.
+
+
+8. IF YOU WANT MORE
+
+Any of the above can be granted to you in writing — redistribution, a build of
+your own, a licence for a product you sell. Ask. The answer is often yes.
+
+
+9. THE SMALL PRINT
+
+  a. If a court finds part of this licence unenforceable, that part is read
+     as narrowly as needed and the rest stands.
+  b. This licence is the whole agreement about the program; nothing on
+     vobuda.com or in the program's documentation adds to it or takes from
+     it, except a written grant under section 8.
+  c. The copyright holder may offer later versions of the program under a
+     later version of this licence; this one keeps covering the version it
+     came with.
+  d. This licence is governed by the law of the State of Florida, United
+     States of America, and any dispute about it goes to the state or
+     federal courts sitting in Miami-Dade County, Florida — without taking
+     away any protection you have as a consumer under the law of your own
+     country.

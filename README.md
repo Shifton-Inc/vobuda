@@ -181,6 +181,15 @@ This is not a side door for scripts. **The interface tests drive the whole
 program through it**, which is the reason it can be trusted — and the reason an
 agent can rearrange your window for you and you can read exactly what it did.
 
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/commands.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/commands-light.svg">
+    <img src="assets/commands.svg" alt="The command list: four letters narrow two hundred actions, and each line shows its own shortcut" width="100%">
+  </picture>
+</p>
+
 `Cmd+K` opens the same set as a list: type to narrow it — the letters match in
 order, so `spld` finds **Split down** — and each line shows its own shortcut, so
 this is also where the keys are learnt. A check holds the list to the core's
@@ -211,17 +220,14 @@ sensors, battery with wear, processes, GPU and the machine's addresses — eleve
 kinds of panel, arranged by a **skin file** rather than by a fixed screen. A
 skin of five lines makes another:
 
-```json
-{
-  "name": "Essentials only",
-  "panels": [
-    { "kind": "cpu", "title": "PROCESSOR" },
-    { "kind": "mem", "title": "MEMORY" },
-    { "kind": "procs", "title": "PROCESSES", "rows": 10 }
-  ],
-  "colors": { "a": "#3b82f6", "b": "#ec4899" }
-}
-```
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/monitor.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/monitor-light.svg">
+    <img src="assets/monitor.svg" alt="The monitor's panels, and the five-line skin file that arranges them" width="100%">
+  </picture>
+</p>
 
 The numbers are honest about themselves: a value the system estimates rather
 than measures is drawn with `≈`, and absent hardware gives an absent value
@@ -235,6 +241,15 @@ Colouring for **227 kinds of file**, taken from the terminal's own theme, so an
 open file looks like it belongs next to the shell. Search across the whole
 project, a file opened by typing part of its name, several cursors placed by
 keyboard or mouse.
+
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/editor.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/editor-light.svg">
+    <img src="assets/editor.svg" alt="The files panel, a file open beside the shell with two cursors, and a search across the whole project" width="100%">
+  </picture>
+</p>
 
 Nothing is written until `Cmd+S`. A file changed on disk underneath you is not
 overwritten. A binary is refused rather than shown as noise. Closing an edited
@@ -278,7 +293,15 @@ English one by shape.
 ### Colour you can actually read
 
 The theme picker states the **contrast** of the theme you are choosing and how
-distinguishable its colours are to a colour-blind reader. Two palettes are built
+distinguishable its colours are to a colour-blind reader.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/settings.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/settings-light.svg">
+    <img src="assets/settings.svg" alt="The settings screen: nine sections, and a theme picker stating its contrast and colour-blind distinguishability" width="100%">
+  </picture>
+</p>
+ Two palettes are built
 for colour vision deficiency, and a test simulates three forms of it before they
 ship. A theme that cannot be read is not a theme.
 

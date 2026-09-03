@@ -62,20 +62,48 @@ window knows how to hold one it can hold any of them.
 ### The agent is part of the window
 
 Start Claude Code, Codex or a local model in a block and a **control bar**
-appears above it.
+appears above it. Everything the agent knows about itself is in the window —
+not in a stream of text that is gone the moment it scrolls.
 
-|  |  |
-|---|---|
-| **Sessions** | past conversations with their first line and time, read from the agent's own files |
-| **Model** | the models that agent actually has installed — never our list of somebody else's models, which goes stale the day a new one ships |
-| **Effort** | the levels the model in use offers |
-| **Permission mode** | read off the agent's own screen, and changed by pressing its own key as many times as it takes |
-| **Attach** | a file chosen in a dialog, or dragged into the block — a path for a shell, a sent message for an agent |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/agent.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/agent-light.svg">
+    <img src="assets/agent.svg" alt="The agent control bar with its sessions, skills, model, permission and commands menus" width="100%">
+  </picture>
+</p>
 
-Underneath it is the real Claude Code or Codex, with your skills, your memory
-and your permissions. Nothing is reimplemented and nothing is proxied. An agent
-is a **JSON description** — recognised by how its process looks — so a new one
-is added without a line of code.
+**Every slash command, as a menu a mouse can use.** `/compact`, `/clear`,
+`/model`, `/effort`, `/cost`, `/context`, `/resume`, `/rewind`, `/memory`,
+`/agents`, `/mcp`, `/status` — read from the installation in front of you and
+listed with what each one does, in your language. An agent draws its own menus
+with arrow keys, where a mouse cannot reach them at all; these are ordinary
+drop-downs, drawn by us, over the agent that is running.
+
+**Every skill this folder actually has**, grouped by where it comes from and
+counted — your own, your team's, whatever a plugin brought. Sixty skills across
+six sources is a list you can look through rather than a name you have to
+remember.
+
+**Past sessions with their first line and the time**, read from the agent's own
+files. "New" starts one, "continue" picks up the last, and any older one opens
+by its first sentence — which is how a person actually remembers a
+conversation.
+
+**The model this installation has** — default, Opus, Sonnet, Haiku, the
+million-token context, whatever is there — never our list of somebody else's
+models, which goes stale the day a new one ships. The **effort** beside it
+comes from the model in use.
+
+**What it may do without asking** — decide for itself, accept edits, ask before
+every step, plan only — is read *off the agent's own screen* and changed by
+pressing its own key as many times as it takes. Not a setting of ours that
+could quietly disagree with the truth.
+
+Underneath it all is the real Claude Code or Codex, with your skills, your
+memory and your permissions. Nothing is reimplemented and nothing is proxied.
+An agent is a **JSON description** — recognised by how its process looks — so
+adding one takes no code.
 
 **While you were away.** Every time an agent stops, one line is kept: which
 block, what it was asked, when it finished, how long it took. Grouped by block,
@@ -92,6 +120,25 @@ merely passing over the badge.
 work. An agent stopped by a usage limit goes back to work by itself when the
 limit lifts — with a switch, and a badge in the morning saying what happened
 while you slept. Sleep is released the moment the work ends.
+
+### Files go where you drop them — screenshots included
+
+Drag a file out of Finder and onto a block: its path is **typed into the block
+you dropped it on**, quoted, ready to run. Several files become several quoted
+paths on one line.
+
+Drop a **screenshot or any image onto the block where the agent is running** and
+the agent gets the picture — the same road a path takes, which is exactly how
+Claude Code and Codex want to be handed an image. Drag straight from the
+screenshot thumbnail in the corner of the screen; nothing has to be saved first.
+
+The built-in **files panel** drags the same way, and letting go over nothing is
+how you cancel. Clicking a file there offers what can be done with it rather
+than guessing.
+
+Going the other way: `Cmd+Shift+X` copies a block's text — asked of the terminal
+itself, because with WebGL rendering there is no text in the page to select —
+and `Cmd+Shift+P` captures the block as a picture.
 
 ### Everything it knows is a file
 
@@ -247,8 +294,6 @@ ship. A theme that cannot be read is not a theme.
 - **A look you make yourself**: corners, shadows, panel colours, transparency,
   saved as your own file with a button.
 - **Nothing asks for a restart.** Ever.
-- **Copy a block's text** with `Cmd+Shift+X` — asked of the terminal itself,
-  because with WebGL rendering there is no text in the page to select.
 
 ---
 
@@ -313,6 +358,14 @@ The guide lives inside the program, in your language: **Help → How to use
 vobuda**. Questions, bugs and requests are welcome in
 [Issues](../../issues).
 
+## Who makes it
+
+vobuda is built by **Shifton Inc** — the team behind
+[shifton.com](https://shifton.com), shift management software used in dozens of
+countries, and [rolchat.com](https://rolchat.com), its own CRM and telephony.
+The terminal came out of that work: a small team that lives in agents and
+terminals all day, building the one it wanted.
+
 ## Licence
 
 **Free of charge, and closed.** The program costs nothing — for your work and
@@ -338,7 +391,8 @@ summary.
 <p align="center">
   <sub>
     <a href="https://vobuda.com">vobuda.com</a> ·
-    made by <a href="https://github.com/Haruvg">Gary</a> ·
-    a program from <a href="https://shifton.com">Shifton</a>
+    built by <a href="https://shifton.com">Shifton Inc</a> —
+    makers of <a href="https://shifton.com">shifton.com</a> and
+    <a href="https://rolchat.com">rolchat.com</a>
   </sub>
 </p>

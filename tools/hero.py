@@ -60,8 +60,8 @@ def draw(c):
     for i, col in enumerate(["#ff5f57", "#febc2e", "#28c840"]):
         p.append(f'<circle cx="{86 + i * 20}" cy="73" r="6" fill="{col}"/>')
     x = 176
-    for name, active, badge in [("~/vobuda", True, None),
-                                ("shifton-com", False, None),
+    for name, active, badge in [("~/app", True, None),
+                                ("docs", False, None),
                                 ("release", False, c["yellow"])]:
         w = 154
         if active:
@@ -127,31 +127,31 @@ def draw(c):
 
     # terminal block
     th = 706
-    p.append(block(L, T, left_w, th, "zsh — ~/vobuda", True))
+    p.append(block(L, T, left_w, th, "zsh — ~/app", True))
     ty = T + 58
     lines = [
-        [("gary", c["green"]), (" ~/vobuda ", c["blue"]), ("$ ", c["dim"]), ("npm run check", c["fg"])],
+        [("dev", c["green"]), (" ~/app ", c["blue"]), ("$ ", c["dim"]), ("npm run check", c["fg"])],
         [("  tsc --noEmit", c["dim"]), ("                 clean", c["green"])],
         [("  vitest", c["dim"]), ("                      1031 passed", c["green"])],
         [("  cargo test", c["dim"]), ("                   215 passed", c["green"])],
         [("  failure-modes.py", c["dim"]), ("             443 of 443 have a check", c["green"])],
         [("", c["fg"])],
-        [("gary", c["green"]), (" ~/vobuda ", c["blue"]), ("$ ", c["dim"]), ("vobuda do block.split-down", c["fg"])],
+        [("dev", c["green"]), (" ~/app ", c["blue"]), ("$ ", c["dim"]), ("vobuda do block.split-down", c["fg"])],
         [("  the same name the key presses", c["faint"])],
         [("", c["fg"])],
-        [("gary", c["green"]), (" ~/vobuda ", c["blue"]), ("$ ", c["dim"]), ("vobuda theme catppuccin-mocha", c["fg"])],
+        [("dev", c["green"]), (" ~/app ", c["blue"]), ("$ ", c["dim"]), ("vobuda theme catppuccin-mocha", c["fg"])],
         [("  the window redraws; the file is yours to edit", c["faint"])],
         [("", c["fg"])],
-        [("gary", c["green"]), (" ~/vobuda ", c["blue"]), ("$ ", c["dim"]), ("git log --oneline -3", c["fg"])],
-        [("  56f96bd", c["yellow"]), (" 0.2.2 built, and the file every copy reads", c["fg"])],
+        [("dev", c["green"]), (" ~/app ", c["blue"]), ("$ ", c["dim"]), ("git log --oneline -3", c["fg"])],
+        [("  56f96bd", c["yellow"]), (" the strip names the language it hears", c["fg"])],
         [("  4e2e4a9", c["yellow"]), (" a setting survives an update", c["fg"])],
-        [("  a4f2934", c["yellow"]), (" the command-line check blamed the run", c["fg"])],
+        [("  a4f2934", c["yellow"]), (" the address panel names both addresses", c["fg"])],
         [("", c["fg"])],
-        [("gary", c["green"]), (" ~/vobuda ", c["blue"]), ("$ ", c["dim"]), ("./scripts/release.sh --mac", c["fg"])],
-        [("  ▸ notarising vobuda-0.2.2-macos.dmg", c["dim"])],
+        [("dev", c["green"]), (" ~/app ", c["blue"]), ("$ ", c["dim"]), ("./scripts/release.sh --mac", c["fg"])],
+        [("  ▸ notarising the build", c["dim"])],
         [("     status: ", c["dim"]), ("Accepted", c["green"]), ("  stapled", c["dim"])],
         [("", c["fg"])],
-        [("gary", c["green"]), (" ~/vobuda ", c["blue"]), ("$ ", c["dim"])],
+        [("dev", c["green"]), (" ~/app ", c["blue"]), ("$ ", c["dim"])],
     ]
     for row in lines:
         cx = L + 16
@@ -163,7 +163,7 @@ def draw(c):
 
     # agent block
     ah = 330
-    p.append(block(right_x, T, right_w, ah, "Claude Code — ~/vobuda"))
+    p.append(block(right_x, T, right_w, ah, "Claude Code — ~/app"))
     # control bar
     by = T + 42
     p.append(f'<rect x="{right_x + 12}" y="{by}" width="{right_w - 24}" height="34" rx="7" '
@@ -222,7 +222,7 @@ def draw(c):
                      f'stroke="{c["dim"]}" stroke-width="1.2"/>')
             p.append(f'<rect x="{gx + 3.5}" y="{gy + 3.5}" width="9" height="11" rx="2" fill="none" '
                      f'stroke="{c["dim"]}" stroke-width="1.2"/>')
-            p.append(text(bxp + 12, top + 130, "hostname  airgar.local", c["faint"], 10.5, UI))
+            p.append(text(bxp + 12, top + 130, "interface  en0", c["faint"], 10.5, UI))
         else:
             p.append(text(bxp + 12, top + 50, big, c["fg"], 21, MONO, "500"))
             p.append(text(bxp + 12, top + 70, sub, c["faint"], 10.5, UI))
@@ -265,9 +265,9 @@ def draw(c):
     p.append(text(L + 40, vy + 27, "listening", c["fg"], 12.5, UI, "500"))
     p.append(f'<rect x="{L + 110}" y="{vy + 13}" width="30" height="18" rx="4" '
              f'fill="{c["tab"]}"/>')
-    p.append(text(L + 125, vy + 26, "RU", c["fg"], 10.5, UI, "600", "middle"))
-    p.append(text(L + 152, vy + 27, "AirPods Max", c["dim"], 11.5, UI))
-    p.append(text(L + 258, vy + 27, "открой настройки и найди диктовку", c["fg"], 12.5, MONO))
+    p.append(text(L + 125, vy + 26, "EN", c["fg"], 10.5, UI, "600", "middle"))
+    p.append(text(L + 152, vy + 27, "Built-in Microphone", c["dim"], 11.5, UI))
+    p.append(text(L + 300, vy + 27, "split the window and open the log", c["fg"], 12.5, MONO))
     p.append(text(1540 - 16 - 40, vy + 27, "typed into the block, never run", c["faint"], 11, UI, "400", "end"))
 
     p.append('</g>')

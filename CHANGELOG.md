@@ -9,6 +9,37 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.2.4 — 3 September 2026
+
+**The first question.** On the first run the program asks how you work —
+code yourself, with agents, just starting — and shapes the window to the
+answer: a quiet look with four icons for a programmer, the full set under
+Glass for working with agents, every button and the guide across the window
+for a start. Asked once, before the folder; the application menu asks again
+on request. A preset over the same files, never a mode.
+
+**Six looks for programmers.** Ink, Graphite, Midnight and Ember dark,
+Daylight and Linen light: flat, thin icons, four buttons, each with its own
+colours and its own edge for the dock, the file list on the right.
+
+**What changed, once.** After an update a window lists every version and what
+each one brought; a cross closes it, the version number in the application
+menu opens it again. Never on a fresh install.
+
+**The install line checks whose signature the file carries**, keeps the old
+app in place until the new one is copied whole, and refuses a version name
+that is not one. A folder cannot run a program by being looked at. A page
+block draws only web pages. A pressed update button goes away; a menu of the
+agent bar closes when you press elsewhere; the update line opens its own
+block beside a busy one.
+
+## 0.2.3 — 3 September 2026
+
+**An installer package.** Beside the disk image there is a `.pkg`: a copy
+sent through a messenger opens from it, where the image alone was refused by
+macOS. The release asks the messenger's question itself, so a build that
+would be refused never ships.
+
 ## 0.2.2 — 3 September 2026
 
 **A setting survives an update.** Nothing had ever proved it: the code that

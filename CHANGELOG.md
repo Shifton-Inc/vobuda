@@ -9,6 +9,17 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.2.5 — 4 September 2026
+
+**A second place to ask for the newest version.** When the download page
+cannot be reached, the program asks for the same file in this repository;
+a network that swallows one name rarely swallows both. Until now such a
+network made the check say it could not check, from the first version on.
+
+**A date in the language of the window.** In the list of past sessions an
+older day is written the way the window's language writes it, "Aug 27" in
+English, rather than one habit's numbers over another language's titles.
+
 ## 0.2.4 — 3 September 2026
 
 **The first question.** On the first run the program asks how you work —

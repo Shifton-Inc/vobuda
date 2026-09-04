@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero.svg" alt="The vobuda window: tabs, a terminal, an agent block with its control bar, the system monitor, and the dictation strip" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.png">
+    <img src="assets/hero.png" alt="The Vobuda window: a tab strip, a terminal block with a test run, a Claude Code block with its control bar answering a question about the code, the files panel, and the dock of buttons along the edge" width="100%">
   </picture>
 </p>
 
@@ -67,9 +67,9 @@ not in a stream of text that is gone the moment it scrolls.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/agent.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/agent-light.svg">
-    <img src="assets/agent.svg" alt="The agent control bar with its sessions, skills, model, permission and commands menus" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/agent.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/agent-light.png">
+    <img src="assets/agent.png" alt="The agent control bar above a running Claude Code block, with one of its menus open: the past sessions or the model, and Claude Code's own status line along the bottom" width="100%">
   </picture>
 </p>
 
@@ -184,9 +184,9 @@ agent can rearrange your window for you and you can read exactly what it did.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/commands.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/commands-light.svg">
-    <img src="assets/commands.svg" alt="The command list: four letters narrow two hundred actions, and each line shows its own shortcut" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/commands.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/commands-light.png">
+    <img src="assets/commands.png" alt="The command list open over the window: every action by name with its shortcut, ready to be narrowed by typing" width="100%">
   </picture>
 </p>
 
@@ -223,9 +223,9 @@ skin of five lines makes another:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/monitor.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/monitor-light.svg">
-    <img src="assets/monitor.svg" alt="The monitor's panels, and the five-line skin file that arranges them" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/monitor.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/monitor-light.png">
+    <img src="assets/monitor.png" alt="The system monitor open in a block beside the shell and the agent: processor, cores, memory, disk, reads and writes, network and temperatures" width="100%">
   </picture>
 </p>
 
@@ -245,9 +245,9 @@ keyboard or mouse.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/editor.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/editor-light.svg">
-    <img src="assets/editor.svg" alt="The files panel, a file open beside the shell with two cursors, and a search across the whole project" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/editor.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/editor-light.png">
+    <img src="assets/editor.png" alt="The files panel open beside a terminal block, the project's folders and files listed with their sizes, a test run in the shell" width="100%">
   </picture>
 </p>
 
@@ -296,9 +296,9 @@ The theme picker states the **contrast** of the theme you are choosing and how
 distinguishable its colours are to a colour-blind reader.
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/settings.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/settings-light.svg">
-    <img src="assets/settings.svg" alt="The settings screen: nine sections, and a theme picker stating its contrast and colour-blind distinguishability" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/settings.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/settings-light.png">
+    <img src="assets/settings.png" alt="The settings screen open beside the shell and the agent, with its nine sections and the list of themes showing each theme's colours" width="100%">
   </picture>
 </p>
  Two palettes are built
@@ -388,6 +388,26 @@ vobuda is built by **Shifton Inc** — the team behind
 countries, and [rolchat.com](https://rolchat.com), its own CRM and telephony.
 The terminal came out of that work: a small team that lives in agents and
 terminals all day, building the one it wanted.
+
+## Every picture
+
+Real windows, taken 4 September 2026 from version 0.2.4 in a home folder that
+belongs to nobody. The dark ones are the programmer's looks; the light ones
+are the full set under the Glass look, and the last two the beginner's.
+
+| | |
+|---|---|
+| ![Terminal and files, Graphite](assets/shots/programmer-01-files.png) | ![Claude Code beside the terminal](assets/shots/programmer-02-agent.png) |
+| ![Past sessions](assets/shots/programmer-03-sessions.png) | ![Skills](assets/shots/programmer-04-skills.png) |
+| ![The command list](assets/shots/programmer-05-commands.png) | ![What's new](assets/shots/programmer-06-changes.png) |
+| ![Choose how you work](assets/shots/programmer-07-profile.png) | ![Ink](assets/shots/programmer-look-ink.png) |
+| ![Graphite](assets/shots/programmer-look-graphite.png) | ![Midnight](assets/shots/programmer-look-midnight.png) |
+| ![Ember](assets/shots/programmer-look-ember.png) | ![Daylight](assets/shots/programmer-look-daylight.png) |
+| ![Linen](assets/shots/programmer-look-linen.png) | ![The full set under Glass](assets/shots/agents-01-window.png) |
+| ![The monitor](assets/shots/agents-02-monitor.png) | ![A page in a block](assets/shots/agents-03-page.png) |
+| ![The model menu](assets/shots/agents-04-model.png) | ![The effort menu](assets/shots/agents-05-effort.png) |
+| ![Themes](assets/shots/agents-06-themes.png) | ![The guide, for a start](assets/shots/beginner-01-guide.png) |
+| ![The beginner's window](assets/shots/beginner-02-window.png) | |
 
 ## Licence
 

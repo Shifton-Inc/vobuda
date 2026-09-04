@@ -1,0 +1,10 @@
+{
+  "version": "0.2.4",
+  "released": "2026-09-03",
+  "url": "https://vobuda.com/vobuda-0.2.4-macos.pkg",
+  "sha256": "33a7156a1a0c1a46cf81c0e810dcb8e583b2fa46a8c36dde246a7772fd4a2553",
+  "size": 19159073,
+  "minimumSystemVersion": "10.15",
+  "notes": "https://vobuda.com/download/#versions",
+  "install": "curl -fsSL https://vobuda.com/install.sh | sh"
+}

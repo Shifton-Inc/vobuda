@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://vobuda.com"><img alt="Download for macOS" src="https://img.shields.io/badge/download-macOS-2563eb?style=for-the-badge"></a>
-  <a href="CHANGELOG.md"><img alt="Version 0.2.2" src="https://img.shields.io/badge/version-0.2.2-1f2937?style=for-the-badge"></a>
+  <a href="CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FShifton-Inc%2Fvobuda%2Fmain%2Flatest.json&query=%24.version&label=version&color=1f2937&style=for-the-badge"></a>
   <a href="LICENSE"><img alt="Free, closed source" src="https://img.shields.io/badge/price-free-16a34a?style=for-the-badge"></a>
 </p>
 

@@ -9,6 +9,14 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.2.7 — 5 September 2026
+
+**What is copied is what was selected.** In a block with an agent running,
+Cmd+C sometimes gave a strip of the agent's frame instead of the selected
+line: the agent repaints its screen in place, and the copy read whatever was
+under the selection by then. The text is now taken the moment it is selected
+and kept until the selection is dropped.
+
 ## 0.2.6 — 5 September 2026
 
 **Copied text arrives as itself.** Text taken out of a block by the program's

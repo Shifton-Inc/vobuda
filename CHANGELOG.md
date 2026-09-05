@@ -9,6 +9,14 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.2.6 — 5 September 2026
+
+**Copied text arrives as itself.** Text taken out of a block by the program's
+own copy — a selection with copy-on-select, Copy in the menu, the block's copy
+button, a panel's copy button — reached Telegram and ChatGPT as «–Т–Є–і–Є»
+when it was Cyrillic: the clipboard was told the wrong alphabet. Every
+alphabet now pastes as it was copied.
+
 ## 0.2.5 — 4 September 2026
 
 **A second place to ask for the newest version.** When the download page

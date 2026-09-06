@@ -9,6 +9,24 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.3 — 6 September 2026
+
+**The file panel follows the agent's hand.** A file the agent writes shows up, with its git mark, the moment it is written, not at the next poll.
+
+**A failed turn says so.** When Claude Code's turn ends on an error, the light says "failed" and which error, with the message under the pointer, instead of "waiting".
+
+**The block's folder follows the agent.** After the agent's own `/cd`, the file panel and everything that reads the block's folder mean the new place.
+
+**The prompt cache on the numbers line.** "cache · cools in 4m", in the warning colour within five minutes of cooling, "cold" when it is; the hit ratio and the last miss's cause under the pointer.
+
+**The agent's own wait, offered.** When Claude Code stopped on a limit without starting its own wait, one button opens its menu for waiting it out; the window's wait stays the backstop.
+
+## 0.3.2 — 6 September 2026
+
+**Claude Code's own continue comes first.** When Claude Code continues a task by itself after a usage limit, the window's wait stands down and the night's record says so; the window's line goes in only if the agent is still waiting three minutes after the reset, or at once when Claude Code says its own wait ended. Its three notifications about that no longer ring the waiting bell.
+
+**A tab's task name is given once.** A tab named by its task keeps that name until the agent is gone or you rename it; it no longer follows a session name that appears a minute later.
+
 ## 0.3.1 — 6 September 2026
 
 **A status line of your own named like ours is kept and called.** The link into Claude Code took any script called `statusline.sh` for its own, so a person who had one saw no numbers line under the bar and no chain to their line; ours is now told apart by its whole path, and theirs is remembered and called after it.

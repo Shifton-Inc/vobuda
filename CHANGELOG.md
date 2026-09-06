@@ -9,6 +9,12 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.4 — 6 September 2026
+
+**The update goes to the end.** After the installer finishes, the window sees the new version on disk and offers the restart on a strip that cannot be closed away; with nothing running it restarts by itself after ten seconds, "not now" holds it. The restart now actually starts the program again.
+
+**One copy of vobuda.** The install line puts the package where vobuda already is, the running copy first, and removes a second copy left by an earlier install; a fresh Mac gets your own Applications folder, with no password.
+
 ## 0.3.3 — 6 September 2026
 
 **The file panel follows the agent's hand.** A file the agent writes shows up, with its git mark, the moment it is written, not at the next poll.

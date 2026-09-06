@@ -9,6 +9,62 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.0 — 6 September 2026
+
+**A long command in the shell signals its finish** like an agent: the tab wears a badge, a sound plays, and when the hands are off the keyboard and the mouse the window goes to it by itself; the badge stays until the first key or click there.
+
+**vobuda run.** An agent runs a command in a block of the window, where the person can watch, and gets the exit code back. A block whose command worked closes by itself, a failed one stays with its code; a setting decides.
+
+**Quiet hours, by weekday.** Between the hours and on the days ticked, a signal marks its tab and makes no sound and no notice.
+
+**Hold to talk.** The dictation key held while speaking, let go to send.
+
+**The local models, from the machine.** Ollama's bar lists what is installed; choosing one restarts it with that model.
+
+**The update in place.** The install line runs in a kept block, and the strip offers the restart.
+
+## 0.2.10 — 6 September 2026
+
+**The board of agents.** One press on the light of the bar opens the board: every agent in every window, the waiting first, with what each waits for; a small number beside the light says how many other agents the window holds.
+
+**Tabs named by the task.** A tab nobody named says what its agent is doing, from the session's name or its first request; a request that is only a picture gives no name.
+
+**btw: a question beside the work.** A button on the bar takes a question and hands it to Claude as its own side command, while it works, without disturbing the task.
+
+**What the agent changed.** The file list wears git's marks, "changed N" beside the search shows the marked files alone, and a file's changes open as a block, hunk by hunk, refreshed while the agent edits.
+
+**Recent folders**, offered where a folder is asked for.
+
+## 0.2.9 — 6 September 2026
+
+**A picture opens as a picture.** A screenshot, a chart or a PDF the agent makes opens as a block beside it, fitted to the block; at its own size it is dragged with the mouse and scrolled with the wheel.
+
+**A document opens as a page.** Any Markdown file reads as a page beside the block, with a table of contents for a long one, A− and A+ for the size, and links that lead somewhere.
+
+**A screenshot pasted into a block becomes a file** whose path is typed for the agent.
+
+**Paths in the output are links** to the files they name, at the line, in any alphabet.
+
+**The agent knows what to show.** At the start of every session Claude Code is told, through its own hooks, that it runs inside vobuda and how to open a picture, a page, a file or a web page beside itself; Codex reads the same words from its instructions file. Nothing to mention in a request, no path pasted into the chat.
+
+**Documents do not squeeze the agent.** Pictures and pages take at most two thirds of the row; the block that works keeps the rest.
+
+## 0.2.8 — 6 September 2026
+
+**The agent's numbers on a line of their own.** Under the bar: the model, the context with a bar and a percentage, the five-hour and the weekly limit with how much is used and when each resets. A fresh session shows the account's limits from the newest status line of any session, and its context as 0 %.
+
+**The light tells the truth.** It says "compacting" while Claude compacts its context and counts the helpers it has running; when no end arrives it lets go of "compacting" after ninety seconds instead of five minutes.
+
+**The branch, the copy and the pull request on the block's header**, read from the folder the agent works in, and what Claude's own auto-continue means, said plainly.
+
+**The effort inside the model menu.** Rest on a model and the efforts appear beside it, low to ultracode, the current one lit; one press chooses both. The models and the efforts are named as Claude Code names them in its own picker, and the separate effort button is gone.
+
+**The bar's lists are drawn over the window**, not inside the block: a menu is whole at any width, and a long one scrolls.
+
+**Every button on the agent bar says what it does** under the mouse.
+
+**A settings folder that holds our earlier Claude menus gets the new ones.** A list edited by hand stays as it is.
+
 ## 0.2.7 — 5 September 2026
 
 **What is copied is what was selected.** In a block with an agent running,

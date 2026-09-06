@@ -9,6 +9,12 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.1 — 6 September 2026
+
+**A status line of your own named like ours is kept and called.** The link into Claude Code took any script called `statusline.sh` for its own, so a person who had one saw no numbers line under the bar and no chain to their line; ours is now told apart by its whole path, and theirs is remembered and called after it.
+
+**The same rule for every link.** A Codex `notify` script of yours named like ours is chained rather than replaced, a `notify_…` key of yours is not mistaken for the `notify` line, and a hook you typed by hand as `vobuda signal …` or `vobuda ask` stays where it is; only the lines the window wrote are the window's to clear.
+
 ## 0.3.0 — 6 September 2026
 
 **A long command in the shell signals its finish** like an agent: the tab wears a badge, a sound plays, and when the hands are off the keyboard and the mouse the window goes to it by itself; the badge stays until the first key or click there.

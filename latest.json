@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "released": "2026-09-06",
-  "url": "https://vobuda.com/vobuda-0.3.0-macos.pkg",
-  "sha256": "ac69b1f8d49f6603ec33c18a548d2c9b4049deb0ccf687819c417261a2bf86dc",
-  "size": 19943602,
+  "url": "https://vobuda.com/vobuda-0.3.1-macos.pkg",
+  "sha256": "3225029068d52e85c70b0193a006baa2ed5db13f90889833f19115e3f5f820be",
+  "size": 19970469,
   "minimumSystemVersion": "10.15",
   "notes": "https://vobuda.com/download/#versions",
   "install": "curl -fsSL https://vobuda.com/install.sh | sh"

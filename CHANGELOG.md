@@ -9,6 +9,50 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.5 — 7 September 2026
+
+**A block is a copy of the project.** Open a block in a copy and the agent works in a git worktree on its own branch; the copy goes when its last block closes, unless it holds work nobody has taken.
+
+**Any program signals through the terminal.** A build, a test run, a script of your own: OSC 9, 99 and 777 mark the tab and ring the same bell an agent does, with no hook to install.
+
+**The shell's own prompt marks.** Jump from one command to the previous, select what a command printed, and see a failed command's code on its own line at the right margin — press it and the agent explains the error in plain words and names one thing to try.
+
+**The ports a block listens on, on its header.** Start a server and `:3000` appears; press it and the page opens where you say.
+
+**Asked where a page opens, everywhere.** The port button, the page that opens by itself, "Open a page", a link in the terminal, a pull request and the agent's own browser all ask once per site: here beside the work, in a new tab, in a window of its own, or in the browser — with "remember for this site".
+
+**The shell outlives the window.** Quit, update or crash, and what runs in a block carries on: a keeper holds the shell and the agent, and the blocks come back to them.
+
+**A block over SSH.** Open one by the host's name and the block is a shell on that machine.
+
+**`vobuda events`.** What changes in the window, one JSON line each, followed as it happens; and the whole command line is documented, with a page on what the program does with your machine.
+
+**Pictures in a block.** Sixel and the iTerm2 protocol are drawn where the command printed them.
+
+**Measured before it ships.** Every release carries its own numbers — memory, the delay from key to letter, redraw, search, ligatures, pictures.
+
+**A snapshot before every turn, and "put it back".** The project folder as it was before the agent's turn, and one press to have it back; the snapshots wait in the files panel under "before".
+
+**The fence.** The agent's writes and deletes outside the project folder are refused, "never delete" refuses every delete, and a red line says what was stopped and by which rule.
+
+**The agent's question, in words.** While an agent waits on you, the bar says what it is asking for in a sentence rather than a tool name, in the danger colour when it wants to install, delete, reach the network or use `sudo`.
+
+**What changed, in words.** The files panel says what the agent touched in a sentence, and names in the warning colour anything that looks like your data.
+
+**"My app".** The first time a block starts listening on a port, a page opens beside it on that address; "Show the agent this page" hands the agent a picture of what you see.
+
+**The guard for keys.** A key pasted into a request is stopped before the agent sees it, and a key the agent writes into a file that ships is refused with where to put it instead.
+
+**"What does this mean?"** The failed command's output goes to the agent as a question beside the work: what the error means, and one thing to try.
+
+**The way out of the fix loop.** When the same file has been edited three times in ten minutes, the bar says so and offers the snapshots.
+
+**The limit in words.** After a turn the bar says what share of the week — or of the five hours — it took, and when the tightest limit of your account is nearly spent and returns within the hour, that waiting is cheaper than starting.
+
+**Every limit of your Claude account, in a menu.** Press the limit on the numbers line: the session, the week for all models, and the week of each model by name, with the one counting against you now marked. Settings → agents → The limits turns it off.
+
+**"Put it online", "Put it on GitHub", "Pack for a developer".** Three items in the File menu for the person who built something and wants it out of the folder: the steps handed to the agent under your own account, a private repository through your own `gh`, and an archive with a README on top — with every file that carries a key left out of it and named.
+
 ## 0.3.4 — 6 September 2026
 
 **The update goes to the end.** After the installer finishes, the window sees the new version on disk and offers the restart on a strip that cannot be closed away; with nothing running it restarts by itself after ten seconds, "not now" holds it. The restart now actually starts the program again.

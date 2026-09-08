@@ -9,6 +9,18 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.7 — 8 September 2026
+
+**Updating happens inside.** The installer no longer opens a terminal of its own for you to watch: the program updates itself and says one thing — installing, then restart. What the installer said is in the log, where it belongs.
+
+**Restarting is one question, and it is the same program that comes back.** With several windows open it used to ask about each of them in turn, and then start a second copy beside the one that quit. It asks once, the windows come back as they were, and the program that starts is this one.
+
+**No offer of the version you are already running.** The daily check kept what was true when it ran, and went on offering an update that was already installed.
+
+**A dragged screenshot survives the drag.** The thumbnail in the corner hands over a file the system deletes a moment later; it is kept now, and the agent gets a file that is still there.
+
+**A picture reaches the agent as a picture.** Paste or drop a screenshot into a block where Claude Code is working and it arrives the way it used to — one line in the input, and the picture read with the turn — instead of a long path typed into the prompt.
+
 ## 0.3.6 — 8 September 2026
 
 **The window stays where you left it, if you say so.** A finish elsewhere used to bring the window to the tab that finished; the signals settings now decide whether it does. Turned off, the badge lights up and nothing moves — which is what you want when you are working on another screen.

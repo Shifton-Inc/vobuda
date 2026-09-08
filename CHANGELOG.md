@@ -9,6 +9,22 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.6 — 8 September 2026
+
+**The window stays where you left it, if you say so.** A finish elsewhere used to bring the window to the tab that finished; the signals settings now decide whether it does. Turned off, the badge lights up and nothing moves — which is what you want when you are working on another screen.
+
+**What an agent shows opens beside its own work.** Ask an agent to show a file, a picture or a page and it appears in *its* tab, not in whichever tab you happen to be reading. Every block's shell carries its own name, and the command line puts it on the command.
+
+**Quiet hours, said as many times as you need.** The hours are a list now: each entry with its own times and its own days, and a day can be named whole — the weekend quiet from end to end, the weekdays quiet only at night.
+
+**The window can be worked by name.** `vobuda ui` lists everything on the screen — what it is called, what kind of thing it is, how it stands; `vobuda press <name>` presses one; `vobuda type` and `vobuda key` fill a field; `vobuda shot` photographs the window; `vobuda wait` waits for the window instead of guessing. An agent can now check its own work without asking you to click.
+
+**The night's waiting says what it did.** Whether the window wrote "carry on" to an agent after a limit, or the agent carried on by itself, is in the log and readable the next morning.
+
+**A question about reading a file has words.** When an agent stops to ask before reading a file outside the project, the bar says so and names the file instead of only "waits".
+
+**The archive for a developer leaves your machine behind.** `.claude/settings.json` — the paths and permissions of *this* machine — stays out of it, and the README says so.
+
 ## 0.3.5 — 7 September 2026
 
 **A block is a copy of the project.** Open a block in a copy and the agent works in a git worktree on its own branch; the copy goes when its last block closes, unless it holds work nobody has taken.

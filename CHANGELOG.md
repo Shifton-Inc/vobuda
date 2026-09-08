@@ -9,6 +9,16 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.8 — 8 September 2026
+
+**Commands come back twice as fast.** A command run from the command line took 600 ms to answer; it takes 281 ms. Most of that was the program waiting on itself — reading a file twice a second, and sleeping four hundred milliseconds before typing anything into a fresh block on the assumption that a shell needs the time. A shell that has written its prompt is ready, and it says so by writing.
+
+**Output arrives three times faster.** Everything a command prints, from the shell to the screen, at 3.8 MB/s where it was 1.1.
+
+**Snapshots have one switch instead of three.** How many to keep and how large a folder may be were questions nobody could answer from a screen; they keep sensible values and live in the settings file.
+
+**Quiet hours read straight.** The clocks, "all day" and the seven days line up where you would look for them, and each interval can be taken away.
+
 ## 0.3.7 — 8 September 2026
 
 **Updating happens inside.** The installer no longer opens a terminal of its own for you to watch: the program updates itself and says one thing — installing, then restart. What the installer said is in the log, where it belongs.

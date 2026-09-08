@@ -9,6 +9,14 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.9 — 8 September 2026
+
+**vobuda runs on Linux, and on far more of it than before.** A `.deb` and an `.AppImage` for both Intel and ARM machines. The AppImage needs nothing installed at all: make it executable and open it — the webkit it draws with travels inside the file. Built on Ubuntu 22.04 rather than Debian 12, which is not a detail: a package runs on the system it was built on and everything newer, never on anything older, and the old base quietly left out Ubuntu 22.04 LTS — the commonest desktop Linux there is, supported until April 2027. It now opens on Ubuntu 22.04+, Debian 12+, Fedora 36+ and openSUSE Leap 15.6+.
+
+**Nothing is offered that your system cannot do.** Dictation and reading aloud are macOS speech services. On Linux and Windows their buttons are gone from the dock, their items from the menu bar and their section from the settings, instead of sitting there doing nothing when pressed.
+
+**The first question no longer leaves an error in the terminal.** Answering "keep it here" sent the shell `cd '~'`, and quoted like that it means a folder literally named "~" — so the shell answered "No such file or directory" under the very first prompt. It goes to the home folder now, and a folder with a space in its name still works.
+
 ## 0.3.8 — 8 September 2026
 
 **Commands come back twice as fast.** A command run from the command line took 600 ms to answer; it takes 281 ms. Most of that was the program waiting on itself — reading a file twice a second, and sleeping four hundred milliseconds before typing anything into a fresh block on the assumption that a shell needs the time. A shell that has written its prompt is ready, and it says so by writing.

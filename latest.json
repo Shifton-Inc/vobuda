@@ -2,8 +2,8 @@
   "version": "0.3.8",
   "released": "2026-09-08",
   "url": "https://vobuda.com/vobuda-0.3.8-macos.pkg",
-  "sha256": "3f0f359a994de4514e99bd889a35549ac93847d45d2e857f0fa21ad2a1f2f014",
-  "size": 21317068,
+  "sha256": "ee5f14f4cd401ac3a02fc811141a80a1a710102118a7b8035365753b75e92a93",
+  "size": 21316858,
   "minimumSystemVersion": "10.15",
   "notes": "https://vobuda.com/download/#versions",
   "install": "curl -fsSL https://vobuda.com/install.sh | sh"

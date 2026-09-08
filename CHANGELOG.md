@@ -9,6 +9,10 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.10 — 8 September 2026
+
+**A page asked for from another window opens.** Every command carries the block it came from, so that an agent showing a file puts it beside its own work. When the sender was in a *different* vobuda window — which is exactly what happens when an agent working in one window drives another — the page was split off a block this window does not have, and nothing opened at all: no error, no block, nothing to look at. It opens beside the block that is here now.
+
 ## 0.3.9 — 8 September 2026
 
 **vobuda runs on Linux, and on far more of it than before.** A `.deb` and an `.AppImage` for both Intel and ARM machines. The AppImage needs nothing installed at all: make it executable and open it — the webkit it draws with travels inside the file. Built on Ubuntu 22.04 rather than Debian 12, which is not a detail: a package runs on the system it was built on and everything newer, never on anything older, and the old base quietly left out Ubuntu 22.04 LTS — the commonest desktop Linux there is, supported until April 2027. It now opens on Ubuntu 22.04+, Debian 12+, Fedora 36+ and openSUSE Leap 15.6+.

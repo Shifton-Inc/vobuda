@@ -9,6 +9,18 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.11 — 14 September 2026
+
+**The update notice is back for Claude Code and Codex.** The daily check looked for both where the app itself was started — Finder's four system folders — and found neither, so it said nothing while both fell releases behind. It looks where your shell looks now, and the line it offers matches the way the program was installed: npm, Homebrew, or Claude Code's own `claude update`.
+
+**An agent installed after vobuda is wired too.** The hooks and the status line were set up once, on the first start, and an agent that was not there yet — or had never been run — was skipped for good: no numbers under the bar, no signal when it finished. They are set up the moment the agent is there, and again just before the window starts one.
+
+**The files panel does not go blank when its folder disappears.** A folder renamed or deleted under the panel left it showing nothing at all. It moves up to the nearest folder that still exists and says which one is gone.
+
+**The model menu offers what your account has.** A model out of Claude Code's cache — Fable on a Pro plan — was on the list, and choosing it was an error. The list is checked against your account's own limits now.
+
+**The restarted program comes back in front.** After an update the program came back behind every other window, and looked as if it had not come back at all. It comes to the front.
+
 ## 0.3.10 — 8 September 2026
 
 **A page asked for from another window opens.** Every command carries the block it came from, so that an agent showing a file puts it beside its own work. When the sender was in a *different* vobuda window — which is exactly what happens when an agent working in one window drives another — the page was split off a block this window does not have, and nothing opened at all: no error, no block, nothing to look at. It opens beside the block that is here now.

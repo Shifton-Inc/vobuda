@@ -23,6 +23,10 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 **Quit asks once.** With a project window per project, quitting put up "something is still running" in every window, one after another, and only then closed the program. Now the one question comes up in the window you are looking at, with every window's running work and unsaved files in its list; Stay keeps everything, Save and quit saves in every window.
 
+**On Linux, the menu at the top stays open.** The bar was rebuilt ten times a second by the settings watcher, and on GTK a rebuilt bar closes the menu you had open; people saw menus that vanished under the pointer. A menu is now rebuilt only when the language, the shortcuts or the tabs changed. (Linux packages rebuilt under this number.)
+
+**On Linux, Quit quits.** The Quit item had no action at all on GTK, so Ctrl+Q and the menu did nothing. It now asks the core for the exit, which asks its one question first. (Linux packages rebuilt under this number.)
+
 **The command line hears a project window.** With a project window in front, `vobuda ui`, `press`, `type` and `shot` waited five seconds and heard nothing: the window in front took the command and answered into its own state file, and the command line read the main window's alone. An agent working in a project window can drive it again.
 
 **A page opens on the server's port by itself, in a second and a half.** Starting a server and pressing Enter opened the page six seconds later, or not at all: the three quick looks after Enter all read the same one-second-old list of processes. The looks are spaced so that at least one sees a fresh list.

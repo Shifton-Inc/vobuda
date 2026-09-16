@@ -9,6 +9,12 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.0.0 — 16 September 2026
+
+**The restart after an update starts the new copy.** Updating to 0.3.13 installed it, the strip offered a restart, and the copy that kept running was the old one — with the strip asking again: the restart asked the program to quit, the quit waited for its question about the work still running, and a second later the system was told to open a program that had not gone, which only brought the old one forward. The restart now goes through without the question, waits for the old copy to end, and only then opens the new one.
+
+**The numbering starts again at 4.0.** After a day with 0.3.12 and 0.3.13 one after the other, and a Linux package rebuilt under the second, the count begins clean here.
+
 ## 0.3.13 — 15 September 2026
 
 **A setting is found by what it does.** The settings screen has a search field: type "pasted key", "font", "notice" or the key as the file spells it, and the rows that match are listed with their section, their title and a line about what they do; one press opens the section and lights the row. Every setting has such a title and line now, in the window's language.

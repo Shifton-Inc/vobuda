@@ -9,6 +9,64 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 0.3.13 — 15 September 2026
+
+**A setting is found by what it does.** The settings screen has a search field: type "pasted key", "font", "notice" or the key as the file spells it, and the rows that match are listed with their section, their title and a line about what they do; one press opens the section and lights the row. Every setting has such a title and line now, in the window's language.
+
+**Four things the window did have a switch.** Right-to-left drawing of a row, file paths made into links, the question of where a page opens, and the system notice when an agent finishes each have a row of their own; before, the only way to turn one off was a text editor.
+
+**The command line knows the settings.** `vobuda settings list` names every setting with its meaning, kind, choices and current value; `settings set <key> <value>` changes one, and the window applies it at once. A value of the wrong shape is refused with the reason, so a setting is never set to a word the program does not know.
+
+**The program is a set of tools for the agents.** `vobuda mcp` is an MCP server, registered with Claude Code and Codex at start: the settings by meaning, the actions by name, the screen by what is on it, a screenshot, a wait, the log. "Make the letters bigger" or "stop blocking my keys" said to the agent now ends in the setting changed, not in a path to click.
+
+**An Integration button on the tab bar.** One press puts the links for both agents in again — hooks, status line, skill, MCP server — and tells the agent in this tab, in its own input, what the window can do and how to ask. For an agent that was already running when the program was installed, or a person who wants to be sure.
+
+**Quit asks once.** With a project window per project, quitting put up "something is still running" in every window, one after another, and only then closed the program. Now the one question comes up in the window you are looking at, with every window's running work and unsaved files in its list; Stay keeps everything, Save and quit saves in every window.
+
+**The command line hears a project window.** With a project window in front, `vobuda ui`, `press`, `type` and `shot` waited five seconds and heard nothing: the window in front took the command and answered into its own state file, and the command line read the main window's alone. An agent working in a project window can drive it again.
+
+**A page opens on the server's port by itself, in a second and a half.** Starting a server and pressing Enter opened the page six seconds later, or not at all: the three quick looks after Enter all read the same one-second-old list of processes. The looks are spaced so that at least one sees a fresh list.
+
+## 0.3.12 — 15 September 2026
+
+**Hebrew and Arabic read right to left in the block.** A Hebrew word typed after a prompt came out backwards, and switching the keyboard did not help: the terminal drew each letter at the column it was typed in and knew no right-to-left. Every right-to-left run of a row is now drawn as one piece, in reading order, and Arabic letters take their joined forms. What the shell, the cursor and the copy see is unchanged.
+
+**A font that has those letters.** No monospace font on a Mac carries a Hebrew or an Arabic letter, so they came from whatever the system found, one squeezed glyph per cell. The program now ships Cascadia Mono for exactly those letters; your own font still draws everything it has.
+
+**The model button no longer reads a file name.** On a Claude Code block it once said `its-420.png · xhigh`: a line that happened to have the shape of Codex's status line was read as one. Each agent's screen is now read by that agent's shape only.
+
+**A review of the whole program, and fourteen faults from it.** On 15 September the whole program was read end to end — the window, the core, the command line and the hooks — for faults of the kind above and for plain logical ones. The ones confirmed are fixed here; the rest are written down with the contracts.
+
+**A fresh shell no longer carries the agent's session.** Claude Code began exporting one more variable about the session that started the program, and every shell in a block inherited it. The live sweep caught it; the list knows the name.
+
+**Past conversations and the limit's return are found under a folder with any name.** The agent names a project's folder with a dash for every character that is not a Latin letter or a digit; the program replaced only three, so a project under a Cyrillic folder — or one with a space — had no past conversations to show and no transcript to read the limit's return from.
+
+**A core crash is recorded again.** A second hook installed at start replaced the one that writes a panic down as a fault; the panic reached the log and never the report.
+
+**A setting turned back on survives an update.** The one-time step that turns off "restore the session" ran for every file below the current version, not only for files from before it.
+
+**One busy flag per block, not per window.** With two agents open the window's one flag flipped between them every second, wiping every badge; now the flag is the block in front's, and an agent that resumes clears its own tab only.
+
+**The files panel walks on from a folder it was sent to**, and a deleted folder no longer sends it in circles. The folder you walked to is the one that comes back with the session.
+
+**Quit asks about an unsaved file.** It asked about running work alone; with idle shells and an edited file it ended the program without a word.
+
+**A shortcut can be recorded again.** The keys screen took the modifier itself as the whole combination and wrote `cmd+metaleft`.
+
+**A merge that conflicts puts the project back as it was**, instead of leaving conflict markers and a merge in progress behind one press.
+
+**A file in another encoding is refused, not rewritten.** Opened leniently and saved, a Windows-1251 file lost every letter outside ASCII.
+
+**Putting a snapshot back leaves the index alone**: nothing that was untracked comes back staged.
+
+**"Bring the page back" brings back a page that left**, never one still in the layout beside it.
+
+**Stopping the agent finds the agent**, by what the process is now and on every branch of the tree, not by the name it was born with.
+
+**The panel resumes a conversation the agent's own way**, from the file that declares it, and in a block of its own when the block in front is busy.
+
+**Prompt marks in bash sit where they belong** when your profile has a precmd of its own: selecting a command's output no longer starts at the prompt above it.
+
 ## 0.3.11 — 14 September 2026
 
 **The update notice is back for Claude Code and Codex.** The daily check looked for both where the app itself was started — Finder's four system folders — and found neither, so it said nothing while both fell releases behind. It looks where your shell looks now, and the line it offers matches the way the program was installed: npm, Homebrew, or Claude Code's own `claude update`.

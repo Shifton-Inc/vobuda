@@ -9,6 +9,14 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.0.4 — 17 September 2026
+
+**The input line no longer says when the window opened.** Under an answer written at 15:40, the line you type into read 05:33 — the minute the block had started, ten hours earlier. A full-screen program places its cursor and begins no lines, so the column dates a row by when its text first appeared; the input line's text has not changed since the block opened, and that is the moment it answered with. True, and useless. The cursor's row now shows its time only while it is the newest thing on the screen: the line a program is writing this moment keeps its time, and an input line waiting under an older answer shows nothing.
+
+## 4.0.3 — 17 September 2026
+
+**The Integration button no longer sends the agent the tail of its own brief.** Pressing it put a fragment into the block — "re, then carry on." — and nothing else. The brief is many lines, and the press wrote it straight to the terminal, so every newline inside it was an Enter: the agent was sent the brief a piece at a time, and what was left in its input when the return arrived was the end of the last line. The message now goes in as a paste, which is what tells an agent where pasted text starts and ends, and the return follows on its own.
+
 ## 4.0.2 — 17 September 2026
 
 **The update strip no longer offers the version you are running.** After updating from the strip, the new copy read the record the old one had written — "4.0.0, latest 4.0.1" — and took that for its own version, so 4.0.1 offered you 4.0.1. The running version is now read from the program itself on every road. Two smaller things from the same minute: the reason of a failed install is what the installer complained of, not its last line of chatter; and the hide button on that failure works.

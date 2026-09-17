@@ -1,9 +1,9 @@
 {
-  "version": "4.0.1",
-  "released": "2026-09-16",
-  "url": "https://vobuda.com/vobuda-4.0.1-macos.pkg",
-  "sha256": "b4bdb52ca9bf8352523ea87bca81cd20b86c288cc8a829441af58912fb7808ac",
-  "size": 23045405,
+  "version": "4.0.2",
+  "released": "2026-09-17",
+  "url": "https://vobuda.com/vobuda-4.0.2-macos.pkg",
+  "sha256": "25476afdff71faf32e22baca792349687dd5fac15b980ad337ecf19532578629",
+  "size": 23108697,
   "minimumSystemVersion": "10.15",
   "notes": "https://vobuda.com/download/#versions",
   "install": "curl -fsSL https://vobuda.com/install.sh | sh"

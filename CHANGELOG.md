@@ -9,6 +9,14 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.0.2 — 17 September 2026
+
+**The update strip no longer offers the version you are running.** After updating from the strip, the new copy read the record the old one had written — "4.0.0, latest 4.0.1" — and took that for its own version, so 4.0.1 offered you 4.0.1. The running version is now read from the program itself on every road. Two smaller things from the same minute: the reason of a failed install is what the installer complained of, not its last line of chatter; and the hide button on that failure works.
+
+**No more red boxes on ordinary letters.** Claude Code draws its screen by placing the cursor and never types the space between two words; the marks read that cell as nothing, ran every word of a row into the next, and took "Проект vobuda" for one word with three letters swapped from another alphabet. An unwritten cell reads as the space it is now. The rule for a swap is stricter — a Russian ending on a Latin name, "GitHubе", is an ending — a no-break space counts between two words and not beside a bullet, and the pill counts what is on the screen, not how many times a status line was redrawn.
+
+**The time stands beside what was written, and beside an agent too.** Two faults in the column of 4.0.1. It put a time on every row it could reach — every row of a paragraph, and every blank row below the last line, so a shell holding one prompt carried the same minute down forty empty rows. A row now carries a time when it holds something and begins what was written in that moment; the rest of a paragraph and the blank rows carry nothing. And beside an agent the column was blank altogether, because it took its markers from line feeds and Claude Code sends none — it runs on the alternate screen and places its cursor. Beside a full-screen program a row now shows the minute its text first appeared, so a whole answer carries one time and a line added later carries its own; the history a window replays when it opens stays blank, since when it was written is not known. A flood past the scrollback no longer leaves the column blank behind it either.
+
 ## 4.0.1 — 16 September 2026
 
 **A restart after an update saves your files first.** The restart the strip offers goes through without the quit question — that was the fix of 4.0.0 — and the question was the only thing that counted a file typed into and not saved. Now every window is told to save before it is told to leave; nothing typed ends with the old copy.

@@ -9,6 +9,56 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.0.1 — 16 September 2026
+
+**A restart after an update saves your files first.** The restart the strip offers goes through without the quit question — that was the fix of 4.0.0 — and the question was the only thing that counted a file typed into and not saved. Now every window is told to save before it is told to leave; nothing typed ends with the old copy.
+
+**A copy with commits of its own is never removed.** A copy of the project is removed when its last block closes and it holds nothing the project lacks. "Lacks" was counted against the project's current branch, and a project checked out at a commit has none — so the count read zero, and a copy with unmerged commits went with them. The count is now against the commit the project is on, which is always there; when even that cannot be read, nothing is removed.
+
+**Two windows saving one file no longer trip over each other.** Every file of the settings folder is written aside and renamed into place; the aside name was one per file, and two windows writing at the same instant shared it. Each write now has a name of its own.
+
+**The awake holds survive a crash mid-write.** The one file of the folder written in place is now written aside and renamed like the rest.
+
+**A run block closes under fish too.** The block types the command and then a line that reports its exit code — spelled `$?`, which fish does not have: fish refused the whole line, the command never ran and the block never closed. The program now asks which shell it starts and spells the code the way that shell does.
+
+**`vobuda run` keeps your quotes.** `vobuda run grep 'a b' f` ran `grep a b f`: the arguments were joined with spaces. An argument with a space or a quote in it now reaches the block in single quotes, which every shell reads alike.
+
+**A long line is long in letters, not in bytes.** A command of 61 Russian letters was treated as a long line and had its Enter typed apart; the count was in bytes, and a Cyrillic letter is two.
+
+**An open file takes a new theme at once.** A theme or a font changed in the settings left every open file in the old colours until it was closed and opened again; now the change reaches the open view, and the cursor stays where it was.
+
+**A tab remembers where you were.** Switching to a tab and back landed in its first block, every time; now it lands in the block you left, and a block moved to a tab lands beside that one.
+
+**"5 min ago" in your language.** The list of past conversations carried that one English line beside every entry, in forty languages. The four spans are in the dictionary now.
+
+**The settings say where a site opens, in the right words.** A site remembered as "in a new tab" or "in its own window" was listed as "In the browser".
+
+**A new agent never overwrites another.** With `agent1` and `agent3` left after a deletion, "New agent" made `agent3` again and wrote over the survivor; it takes the first free name now.
+
+**999 999 tokens read "1M", not "1000k".**
+
+**An older settings file keeps every default.** A file naming one field of a section — the voice, the pages, the limits — used to lose the rest of that section's defaults silently; every section is topped up now.
+
+**A signal from a block marks that block's tab.** `vobuda signal done` — and through it the agents' hooks — marked whatever tab was in front; the signal now names the block it came from. And one rule for the sound: silent while you are looking at that tab, quiet in quiet hours, off with signals off — the same on every road a signal takes.
+
+**Read-aloud reads the agent that finished.** With two agents it read the block in front, which was the wrong one half the time.
+
+**The MCP server names the version that installed it.** It carried a copy of its own, bumped by hand — and on the day 4.0.1 began it still said 4.0.0.
+
+**The effort button names its own model's effort.** With settings for both `claude-opus-5` and `claude-opus-5[1m]`, "opus" could show the other one's; the exact name wins now, and a Codex profile's model is no longer read as the default.
+
+**A page reopened on the same block says so when it never loads.** Only a page made fresh was watched; a second address that never arrived left a blank and no word.
+
+**Smaller:** the menu's memory is written once the menu is on the window, not before; a file git reports as a copy no longer leaves a mark on its source; the first disk reading is no longer the total since boot; a refused dictation phrase no longer leaves the microphone running.
+
+**The time beside every line.** An agent writes screens of text and nothing says when; scrolling back, a line from the morning looks like one from a minute ago. A column beside the block now shows the minute each line was written — bright where the minute changes, the seconds under the mouse — and stays out of every copy. Under the terminal's settings, on by default.
+
+**The invisible in the text.** What a machine can put into a text and an eye cannot see — zero-width characters, special spaces, soft hyphens, direction marks, hidden tag characters, a letter of another alphabet swapped into a word — is marked over its cell and counted on the block's header; the pill lists the kinds, copies the text with the hidden taken out, and hands the selection to the agent to be rewritten as a person would write it. A model's typographic habits are counted apart as tells, never as a verdict; a watermark nobody can see without its key is not looked for. Under the terminal's settings, on by default.
+
+**Show in its folder.** A picture, a document or a file open in a block has a button that opens Finder at the file's folder with the file selected — to copy it, move it, or see what lies beside it. Before, there was only "open in the system".
+
+**A folder's link opens the folder.** Pressing the path of a folder in an agent's answer opened an editor that could only say it was a folder; now the folder opens in Finder, and a file opens in the block as before.
+
 ## 4.0.0 — 16 September 2026
 
 **The restart after an update starts the new copy.** Updating to 0.3.13 installed it, the strip offered a restart, and the copy that kept running was the old one — with the strip asking again: the restart asked the program to quit, the quit waited for its question about the work still running, and a second later the system was told to open a program that had not gone, which only brought the old one forward. The restart now goes through without the question, waits for the old copy to end, and only then opens the new one.

@@ -9,6 +9,38 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.1.1 — 23 September 2026
+
+**A page can no longer give the program orders.** A site open in the Design plugin, or in any page block, could reach the program's own address and from there call any of its commands — open a folder, run something, write a file. Now a page is let through to exactly what it was given and nothing else; a plugin's panel cannot grant itself a folder; the window puts its helpers only into pages of installed plugins that work on one; and `vobuda set` writes only inside the settings folder. A page sent to the program's address shows that address in its bar instead of the site it came from.
+
+**The model menu waits for the agent.** In the first seconds after an agent starts, a press on a model used to type into a terminal that was not listening yet, or do nothing at all. Now the menu says the agent is starting and keeps your choice until it is ready, then sends it; if the agent never gets ready, it says nothing was sent. The row lit as current is the one the agent is really on, and a row keeps its name when pressed.
+
+**"Keep the Mac awake" shows what is really held.** The row in settings used to show an hour and no screen whatever was chosen, and a touch sent that over the real hold — the time went, the tick went, the screen was let sleep. It now shows the hold as it is and changes only what you changed. The hold can also be found by searching settings.
+
+**Typing a number in settings no longer takes effect letter by letter.** Typing 5000 into Scrollback went through 5, and every open block cut its history down to five lines on the way. A number is written when you finish typing it, and the fields take the same ranges the settings catalogue promises.
+
+**Text reads on every theme and every look.** A look laid over a theme could put its text on its own accent at about two to one; plugin panels drew their quiet text by transparency and kept the colours they were opened under. Every text is now held to 4.5 to 1 after the look is applied, panels follow the window's colours when you change theme, and the grey a shell prints for suggestions and hints is readable: Minimum contrast ships at 4.5. A settings file that held the old 1 moves to 4.5 once; set 1 again and it stays.
+
+**Screenshots dropped into a block stay on this Mac.** Their copies are swept after a week and never go into the settings copy in iCloud Drive. Plugins do not travel in that copy either: each Mac installs its own, and a restore leaves them as they are.
+
+**Saving a file you reach through a link writes the file, and the link stays a link.** Before, the save replaced the link with a plain copy. A working copy whose state git cannot read, or which holds ignored files, is kept rather than removed.
+
+**The Director decides by itself, as the panel says.** It was started asking for a yes on every command. Its workers' reports reach it within seconds whatever the width of their blocks, a worker on Codex asking permission is heard too, a second director gets a name of its own, the panel shows a worker standing on a question as asking, and the Director's role goes when the plugin goes.
+
+**The director's window stays yours.** What you type goes to the director, not to a worker that has just opened beside it. Workers share their column in equal parts, quick jobs open folded into the strip, and the director always keeps at least a quarter of the tab. Workers' reports wait until the line you are typing to the director is empty, so a half-written message is never sent or spoiled; and a worker's question is said only in the bar of the agent that asked, and not once it has been answered.
+
+**The Design plugin, after a restart and on a copy.** After Quit and a new start it binds to the page on the screen, not to the folded site. The agent asked about a copy is given the copy's file, not an address it cannot open. Closing the panel with unsaved changes asks first. A question waits for a busy agent rather than being typed into its turn, and the panel lets the agent's question go when the agent leaves.
+
+**Plugins are taken away cleanly.** Removing a plugin closes its own panels in every tab and no one else's; a failed update puts everything back instead of losing your work, and "your work was kept" says where. The catalog does not offer a plugin the window is too old for, and the daily check no longer makes a plugins folder on machines that never opened one.
+
+**An agent keeps room to work.** Claude started beside a shell used to come up barely wider than its prompt, and every panel opened afterwards took more from it. A block running an agent now keeps a readable width, never under sixty columns, and takes it the moment the agent starts; a shell keeps room to work in as well. A new block is cut out of the widest shell rather than out of a panel, and the plugin catalog opens down an edge. When a row has no room left, its oldest panel, file or page folds into the strip instead of everything being squeezed, and the button of a folded view unfolds it rather than closing it.
+
+**An agent that is not installed says so.** Starting an agent this Mac does not have names it over its block, with the line that installs it and a button that puts that line in the terminal.
+
+**Settings are found by your words.** Settings are found by the words you use, in any language, from the window, the command line and MCP; "Back to how it shipped" puts back exactly what the section shows, to your profile's starting values.
+
+**Smaller things.** "Read the answer out" reads exactly what you selected, in any block or page, even when the terminal redraws under it; a press while something is playing reads the new choice. Ligatures turn on and off in open blocks. Quit is named in the menu's language, and its question is no longer drawn under the designer. A red question mark leaves the tab when the agent that asked has gone. Reading a folder outside the project is called reading, not writing. The drop-down key registers only a whole shortcut. The answer to "how do you work" is kept. Two quick changes to settings no longer lose the first one. `vobuda send` into a block with no terminal says so instead of losing the words. The editor takes the keyboard as soon as its block becomes the active one. The floating settings card and the menu are opaque under every look. The agent panel's buttons are in your language. An address typed over a page that never opened opens there, rather than the refused one again.
+
 ## 4.1.0 — 23 September 2026
 
 **A director runs the work for you (a plugin).** Install **Director**, press it, and press "Call a director": your own agent starts beside the panel as a manager, not a worker. Tell it what you need in your own words. Before anything is built it holds a meeting — the people it thinks the task needs, each forming a view before seeing its own — and comes back with what it understood, what it proposes and a few questions in plain words; work starts on your yes. It hires the workers the job needs, writing a role for any specialist you do not have, picks the model for each, and hands you the result. When a worker finishes, its whole answer reaches the director by itself; when a worker stops to ask permission, the director is shown the question and answers what is safe, asking you about the rest. The panel lists every director and its people as they work. One agent is enough, and nothing assumes a method.

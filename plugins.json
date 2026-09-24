@@ -177,10 +177,10 @@
       "vi": "Nói cho một giám đốc biết bạn cần gì: người đó sẽ tổ chức một cuộc họp, thuê những người cần thiết, và giao kết quả cho bạn.",
       "zh": "告诉一位总监你需要什么：它会召开一次会议，雇用需要的人，把结果交给你。"
     },
-    "version": "0.1.1",
+    "version": "0.1.2",
     "surface": 4,
     "minVobuda": "4.1.0",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.1.zip",
-    "sha256": "c6aaabe3dc6a0b6422c930aa1806064ddda86dfcb790d4f96387d7e2c2f59b72"
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.2.zip",
+    "sha256": "49413843215fdc56344a819c5f3ca1a6c00f71559680fdaa768627ee8871799c"
   }
 ]

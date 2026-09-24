@@ -9,6 +9,10 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.1.3 — 24 September 2026
+
+Minor bug fixes.
+
 ## 4.1.2 — 24 September 2026
 
 **The window keeps its shape.** In 4.1.1, pressing Monitor beside a folded block, or opening one block too many, pushed the dock past the edge of the window, and a new block could be squeezed down to a thread. Now only what stands on the screen shares the room, nothing is drawn past the window, every block gets at least its smallest useful size, and what does not fit goes down to the strip, where one press brings it back. A dock taller than its window scrolls instead of squashing its buttons, and the monitor scrolls up and down only.

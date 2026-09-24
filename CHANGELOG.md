@@ -9,6 +9,32 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.1.2 — 24 September 2026
+
+**The window keeps its shape.** In 4.1.1, pressing Monitor beside a folded block, or opening one block too many, pushed the dock past the edge of the window, and a new block could be squeezed down to a thread. Now only what stands on the screen shares the room, nothing is drawn past the window, every block gets at least its smallest useful size, and what does not fit goes down to the strip, where one press brings it back. A dock taller than its window scrolls instead of squashing its buttons, and the monitor scrolls up and down only.
+
+**The program is a third smaller.** Its binary ships without what only a debugger reads, and the Mac package comes straight from the site again rather than from a redirect.
+
+**Settings are arranged by what you came to do.** Ten sections — General, Appearance, Agents, Protection, Notifications, Voice, Window and panels, Terminal, Buttons and keys, Data and privacy — listed down the left instead of tiles that took half the panel, and a row of icons in a narrow block. The language is the first row of General; dictation has a section of its own; the rare settings of each section are folded under "More settings", and a search that finds one opens it. A shortcut or a command that still names an old section opens where its rows are now.
+
+**Your data in one place.** Data and privacy holds saving the settings to a file, restoring them, the copy in iCloud Drive as a switch you can see, and checking for updates. Searching "backup" finds them.
+
+**The tabs come back after a restart.** The shells went on running when the window closed, and the window did not bring their tabs back. It does now by default; a settings file that held the old default is turned on once, and switching it off again stays off.
+
+**The dock in captioned groups.** Start, See, Voice and Add-ons, with Agent as the one main button in blue, Settings and Help at the far end. Its side, the shape of its buttons and which ones to show are on a right-click on the dock.
+
+**Tabs say what works in them.** A tab you have not named reads "Claude · site" or "terminal · shop", and a dot on it breathes while its agent works. While the Mac is kept awake a ☕ sits at the end of the tabs, and ⏳ with the hour while a limit is waited for; press either to turn it off or open its settings. The project's name stands at the left once you have more than one project.
+
+**An agent's questions in your language.** When Claude asks whether to trust a folder, or whether it may run a command or change a file, a card lies over its block and asks in the window's language — "Yes, it is my folder", "Allow once", "Always allow in this folder". It presses the same keys you would; "Show it as in the terminal" leaves you the agent's own screen.
+
+**One word for one thing.** A window's space is a project everywhere, plugins are add-ons, sessions are past conversations — in the window, the menus, the command line and the guide.
+
+**A greyed button says why.** Rest the mouse on it and the reason is there; the same reason is in `vobuda ui`. In the Design plugin, Save names how many changes it writes, and after saving says "Saved into …" with a button that shows the file in Finder.
+
+**For agents that drive the window.** Every control in `vobuda ui` has a name that stays the same in every language. `vobuda press` refuses when two things answer to one name, and answers with what appeared, went or turned on after the press.
+
+**Smaller things.** Counts under the agents and elsewhere are in the forms your language has ("3 buttons", «5 кнопок»). "Back to how it shipped" in Window and panels puts back the monitor's readings too, and it no longer stands under the results of a search. A section's name wraps rather than being cut. With the tab strip turned off, the first block's header no longer sits under the window's own buttons.
+
 ## 4.1.1 — 23 September 2026
 
 **A page can no longer give the program orders.** A site open in the Design plugin, or in any page block, could reach the program's own address and from there call any of its commands — open a folder, run something, write a file. Now a page is let through to exactly what it was given and nothing else; a plugin's panel cannot grant itself a folder; the window puts its helpers only into pages of installed plugins that work on one; and `vobuda set` writes only inside the settings folder. A page sent to the program's address shows that address in its bar instead of the site it came from.

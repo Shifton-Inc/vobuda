@@ -9,6 +9,32 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.1.4 — 26 September 2026
+
+**Panels open by the dock.** Files, Monitor, Settings and the other panels open against the dock, and none of them folds another. The width you drag a panel to is remembered, blocks one over another share their column at one height until you drag the line between them, and a double-click on that line evens them again. Files opens as wide as what it lists. The widths remembered by earlier versions are dropped once. When a panel would leave an agent without its columns, the panels stack in one column, and the Terminal button opens a shell by the same rules.
+
+**A row under every agent.** Under the terminal, beneath the agent's own last line, stands a row: the folder you are working in, a chip with a plus that gives the agent files or folders — several at once — **skills**, **commands**, **Side question** and **copy answer**. In its right-hand corner are the microphone, to dictate into this agent, and **Stop**, which is there while the agent works and sends the agent's Esc, never Ctrl+C. A different folder starts a new conversation there, after asking. **Project rules** in the Agent menu opens the project's `CLAUDE.md`. The skills are one flat list, folded into groups.
+
+**Type like the Claude app.** While an agent runs in a block, `Shift+Enter` is a new line, `Cmd+Left` and `Cmd+Right` go to the ends of the line, `Cmd+Backspace` deletes to its start, a click puts the cursor in the message, and a selection there is a text field's: `Backspace` erases it, a letter replaces it, `Cmd+A` selects it all. It is Settings → Terminal, on for the vibe-coder and the beginner, off for the programmer. A plain shell is never touched.
+
+**The agent's cache stays warm.** While the agent waits and you are away, a one-word side question shortly before its cache cools keeps it warm, for up to five hours after you last typed; it never goes over your unsent words, and the bar says why one is waiting. Settings → Agents turns it off.
+
+**A side question of any length** is sent as a question, not left in the input as a paste and not put into the conversation.
+
+**The director's team.** Every worker of a director now works in a copy of the project of its own. The Director's panel gives one account of the team — done, waiting on a decision, clashing — with **Bring the work back** and **Show the changes**; on the command line these are `vobuda team summary` and `team merge`. When two workers changed the same file, nothing is merged and the file is named. The specialists a director has created are kept and hired again by name, and the team survives a restart of its window.
+
+**Past conversations.** Find one by a word from its name or first line, and give it a name of your own; the name is kept in vobuda, not in the agent's files. A conversation started by a pasted message is named by it, and the line under the list says how long Claude Code keeps them.
+
+**A page saves a file only on your click**, in the Save panel. One that starts a download by itself is still refused.
+
+**Design.** A right-click on the page picks the element and opens its card. Changes have a history with a way back and forward, unsaved ones survive closing the program and are never put back over changed code, and "only here" is saved where the element was drawn. **Edit my site** says what the road needs and starts the preview with its own command; **Build my site from this** is asked in the panel, built by your agent and checked against the copy. Only websites are offered, the three tools never run into each other, and the words have plain names — preview, marks, files.
+
+**Reading aloud is gone**, with the dock's Dictate button. Dictation stays, in the agent's row and in the settings.
+
+**Coming from the Claude app.** The guide says what is where, what comes over — the conversations of the app's Code tab are already in Past conversations — and what does not.
+
+**Many smaller fixes.** The shortcut for the block snapshot is `Cmd+Shift+P` again and the plugins panel is `Cmd+Shift+E`. Installing and updating can take the package from the release on GitHub when vobuda.com does not answer, and updating vobuda runs in the background. A question that covers the agent's line no longer changes the permissions button, a notice sent in pieces is one notice, a window keeps its layout across a restart, and a menu opened before its items arrive is the height of its list.
+
 ## 4.1.3 — 24 September 2026
 
 Minor bug fixes.

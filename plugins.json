@@ -85,11 +85,11 @@
       "vi": "Trỏ vào trang đang chạy thật và nói điều bạn muốn thay đổi.",
       "zh": "指向正在显示的页面，说出你想改的地方。"
     },
-    "version": "0.1.4",
+    "version": "0.1.5",
     "surface": 4,
     "minVobuda": "4.1.0",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/design-0.1.4.zip",
-    "sha256": "1cf69abcb0e1b682797924c754aec4cd76ebf8913610296a60086fdadb9638f2"
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/design-0.1.5.zip",
+    "sha256": "1bb1bc192d7848216e81f83461376ebe8013600c0346197a9b57abe6e63e9279"
   },
   {
     "id": "director",
@@ -177,10 +177,10 @@
       "vi": "Nói cho một giám đốc biết bạn cần gì: người đó sẽ tổ chức một cuộc họp, thuê những người cần thiết, và giao kết quả cho bạn.",
       "zh": "告诉一位总监你需要什么：它会召开一次会议，雇用需要的人，把结果交给你。"
     },
-    "version": "0.1.2",
+    "version": "0.1.3",
     "surface": 4,
     "minVobuda": "4.1.0",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.2.zip",
-    "sha256": "49413843215fdc56344a819c5f3ca1a6c00f71559680fdaa768627ee8871799c"
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.3.zip",
+    "sha256": "1525c08805d5bc01c25085a197e4ff4fbf01af38a49e8762c789bbb6b8178ce1"
   }
 ]

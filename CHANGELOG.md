@@ -9,6 +9,30 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.1.5 — 3 October 2026
+
+**Who needs you, at a glance.** `Cmd+K` opens on the agents that wait for you, the tab name always in view. The Dock icon counts the agents waiting. The board shows each agent's last line and how old it is, a status and a one-line note you can put on a block, a countdown before an agent's cache cools, and **Mark unread** brings a tab back later. Several rows of the board can be chosen at once.
+
+**Menus of their own.** A tab has its own menu, and vobuda's menu shows shortcuts and icons, with lines that grey out and say why. The block menu keeps saved prompts and commands and the agent's sessions. A right-click on the file list opens a menu for that file, and **Show hidden files** is a checkbox there. A right-click wherever something is shown chooses whether it shows.
+
+**Sleep a tab.** A tab you are not using can sleep and wake where it was, even after a restart, and in the nearest folder still there if its own was deleted.
+
+**Continue in a fresh session**, with a handoff written for the new one. Past conversations are there for every agent, not only Claude, and Codex's own numbers are on its bar. Choosing a Codex model works again with Codex 0.160, and the agent bar is ready at once in a fresh Claude Code session.
+
+**Review notes are drafts**, sent together in one batch, and they survive **Draw the interface again**. **Explain this** on a turn or a commit asks the agent.
+
+**Copy without the frame.** Copying from a program drawn in the terminal drops its gutter, and programs that copy through the terminal itself (OSC 52) are heard.
+
+**Focus you can see.** Blocks without focus can be dimmed, and the block focus jumps to flashes once.
+
+**The Director, all in its panel.** Every setting of the team lives in the Director panel and is remembered: hide the workers' top and bottom lines, let the team open things beside its blocks, replace a worker when its context reaches a share you choose (30–100 %), the model and effort for each of ten kinds of work with an **Auto** button, a cap on the team's usage, the most agents at once (2–20), a watchdog with its interval, a conveyor that hands finished work to testers, and a progress board. Without the plugin none of it is shown. A new worker is trusted at once, and its copy's branch takes the name of its task.
+
+**The team comes back** after a restart or a crash, each worker in its own conversation.
+
+**A team's block does only what a short list allows**: it opens beside its own block when you let it, types only into its own terminal, and never closes your tabs, changes your settings or presses the window's buttons. Pressing an agent's button a second time asks before it ends a working agent.
+
+**Smaller fixes.** New blocks open in the folder just chosen. The where-to-open bar and the fence's strip can be read on every colour. A block dragged onto the tab strip no longer comes up white. After **Draw the interface again** every terminal keeps its text and size.
+
 ## 4.1.4 — 26 September 2026
 
 **Panels open by the dock.** Files, Monitor, Settings and the other panels open against the dock, and none of them folds another. The width you drag a panel to is remembered, blocks one over another share their column at one height until you drag the line between them, and a double-click on that line evens them again. Files opens as wide as what it lists. The widths remembered by earlier versions are dropped once. When a panel would leave an agent without its columns, the panels stack in one column, and the Terminal button opens a shell by the same rules.

@@ -9,6 +9,10 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.1.6 — 3 October 2026
+
+**The window opens at once**, even while your settings are still coming down from iCloud Drive. It used to wait for every file, and on a Mac where iCloud had moved the team's saved roles off the disk that took two minutes. A role a director asks for in the meantime is fetched on its own.
+
 ## 4.1.5 — 3 October 2026
 
 **Who needs you, at a glance.** `Cmd+K` opens on the agents that wait for you, the tab name always in view. The Dock icon counts the agents waiting. The board shows each agent's last line and how old it is, a status and a one-line note you can put on a block, a countdown before an agent's cache cools, and **Mark unread** brings a tab back later. Several rows of the board can be chosen at once.

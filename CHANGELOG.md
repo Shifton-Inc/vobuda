@@ -9,6 +9,10 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.1.7 — 6 October 2026
+
+Optimization of the program.
+
 ## 4.1.6 — 3 October 2026
 
 **The window opens at once**, even while your settings are still coming down from iCloud Drive. It used to wait for every file, and on a Mac where iCloud had moved the team's saved roles off the disk that took two minutes. A role a director asks for in the meantime is fetched on its own.

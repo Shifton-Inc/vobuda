@@ -9,6 +9,24 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.0 — 7 October 2026
+
+**A smaller download, one for each chip.** A Mac now gets the file for its own chip, Apple silicon or Intel, instead of one that held both, and the program inside is about a third smaller: its texts in forty languages travel packed, and the window no longer carries a second copy of them. Nothing was taken out to get there. The one-line install and the update pick the right file by themselves, and an installer taken for the wrong chip says so before it writes anything. The logos most often put on a button come inside the program; the rest of the set is downloaded a little after the first start and kept beside your settings, and offline the ones inside work as before.
+
+**What an agent's update brings.** Updating Claude Code or Codex now shows what the new version changes, summed up in your language by your own agent. **What's new** beside the update shows it without updating.
+
+**Nothing runs by accident.** A link to an app, a script or any other file a Mac would run is shown in Finder instead of started. A link is judged by where it leads, and macOS itself says what counts as runnable. What you open yourself in Files opens as before. The Claude sign-in token no longer shows in the list of running processes, and the window reads the agents' open ports straight from the system instead of starting a helper every few seconds: with ten agents open, milliseconds of processor a minute instead of seconds.
+
+**The director's card.** "29% done" in the corner of a director's block says how much of the work you gave it is done, and how long the rest should take, as a range drawn from how long such work took here before. A press opens one card with everything the director has: Progress, Team, Rules, Queue, Board and Team settings, the whole of the old Director panel. Beside each piece of work stands the share of your weekly limit it has used, and under the time left, what the rest may still use and whether it fits your cap. A director is called from the **+** of the tab strip. Update the Director in Plugins to get the card.
+
+**A question waits for you.** When the director or a member needs a decision only you can make, a still **?** stands on its tab, in its block's header and on the Dock icon until you answer in that block.
+
+**Your rules.** Standing instructions for a project, such as "do not touch the website", live in the director's card under Rules. Every new member and every new director gets them first, and they stay until you clear them. The director can write down a rule you told it, but cannot change or remove one.
+
+**Each director works behind a closed door.** A team's agents can no longer see or write to another director open on the same Mac; they talk only through their own team's mail. A tab holds one director, and another one opens in a tab of its own.
+
+**A steadier team.** A director whose context is full writes a note for its successor before handing the team over. A failure the old director already heard is not told again, and a fix that reached the main line closes the piece that failed. A member's first task goes in once it is ready to take it, and is never sent twice. A tester the director names keeps that piece to the end, and work that is merged already waits for the director instead of going to a tester.
+
 ## 4.1.7 — 6 October 2026
 
 Optimization of the program.

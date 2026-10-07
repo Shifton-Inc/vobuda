@@ -356,7 +356,7 @@ the fix comes with the check that stops it coming back.
 
 | | |
 |---|---|
-| **Platform** | macOS 10.15+ (Apple Silicon and Intel, one universal build). Linux and Windows are next |
+| **Platform** | macOS 10.15+, one package for Apple silicon and one for Intel. Linux: a .deb and an AppImage for amd64 and arm64 on each release. Windows is next |
 | **Price** | free, for personal and commercial work alike |
 | **Account** | none |
 | **Built on** | Rust · Tauri 2 · React 19 · xterm.js with WebGL · Vite |

@@ -9,6 +9,10 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.1 — 8 October 2026
+
+Bug fixes and Haiku 5.5 support.
+
 ## 4.2.0 — 7 October 2026
 
 **A smaller download, one for each chip.** A Mac now gets the file for its own chip, Apple silicon or Intel, instead of one that held both, and the program inside is about a third smaller: its texts in forty languages travel packed, and the window no longer carries a second copy of them. Nothing was taken out to get there. The one-line install and the update pick the right file by themselves, and an installer taken for the wrong chip says so before it writes anything. The logos most often put on a button come inside the program; the rest of the set is downloaded a little after the first start and kept beside your settings, and offline the ones inside work as before.

@@ -9,6 +9,14 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.2 — 15 October 2026
+
+Tabs can be dragged to a new place; pinned tabs stay on the left.
+
+Every team member's block shows the model it runs.
+
+Most of the ways a plugin could reach your computer or home network are now closed.
+
 ## 4.2.1 — 8 October 2026
 
 Bug fixes and Haiku 5.5 support.

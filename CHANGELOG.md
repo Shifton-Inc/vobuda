@@ -9,6 +9,10 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.3 — 16 October 2026
+
+Plugins made for the previous version are offered in Plugins again.
+
 ## 4.2.2 — 15 October 2026
 
 Tabs can be dragged to a new place; pinned tabs stay on the left.

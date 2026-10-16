@@ -85,11 +85,11 @@
       "vi": "Trỏ vào trang đang chạy thật và nói điều bạn muốn thay đổi.",
       "zh": "指向正在显示的页面，说出你想改的地方。"
     },
-    "version": "0.1.6",
-    "surface": 4,
-    "minVobuda": "4.1.0",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/design-0.1.6.zip",
-    "sha256": "bcdfbe7608516f281cfb539960f581a2973171d4e31a88991c61eda457435d66"
+    "version": "0.1.7",
+    "surface": 5,
+    "minVobuda": "4.2.2",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/design-0.1.7.zip",
+    "sha256": "f2e399a301b169e951e0f7e9ad8508eb44eee7c489c1f83c6374726176cccf48"
   },
   {
     "id": "director",
@@ -177,11 +177,11 @@
       "vi": "Hãy nói với giám đốc bạn cần gì: nó cho bạn xem bản phác và chi phí, bắt đầu khi bạn đồng ý, thuê người làm và giao cho bạn kết quả đã kiểm tra.",
       "zh": "告诉总监你需要什么：它会给你看草图和费用，等你说“好”再开始，请人来做，并把检查过的结果交给你。"
     },
-    "version": "0.1.8",
-    "surface": 4,
-    "minVobuda": "4.2.0",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.8.zip",
-    "sha256": "47161a8644e15d1826c7861fc90502b5db085d68898a19805a79ef3d6c442a6b"
+    "version": "0.1.9",
+    "surface": 5,
+    "minVobuda": "4.2.2",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.9.zip",
+    "sha256": "5d65a5ba7712233a9fe642c004d94b29926aee97e40a35243c37651be45c92a4"
   },
   {
     "id": "map",
@@ -269,11 +269,11 @@
       "vi": "Xem cả thư mục trong một cái nhìn: nó gồm những gì, các phần liên kết với nhau ra sao, điều gì đã thay đổi, điều gì bị hỏng và tác nhân nhớ những gì. Bản đồ tự đọc thư mục, không dùng AI, và chỉ giao việc cho tác nhân của bạn khi bạn bấm.",
       "zh": "一眼看清整个文件夹:它由什么组成、各部分如何关联、改动了什么、哪里坏了、智能体记得什么。地图自己读取文件夹,不使用 AI,只有在你点击时才会把任务交给你的智能体。"
     },
-    "version": "0.0.3",
-    "surface": 4,
-    "minVobuda": "4.2.0",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/map-0.0.3.zip",
-    "sha256": "ee7a1a546a52d50116213f18c21076acc70c9dc5755bb2754180bb473961741f"
+    "version": "0.0.4",
+    "surface": 5,
+    "minVobuda": "4.2.2",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/map-0.0.4.zip",
+    "sha256": "4df22b421b406702c104d05f0043822e65c8dcf1fb3ea9a5110256cfebb6e596"
   },
   {
     "id": "swarm",
@@ -361,10 +361,10 @@
       "vi": "Hãy để một bầy người được bịa ra kiểm tra một văn bản, thư mục của một trang web hoặc một địa chỉ web. Họ đi qua từng phần, tranh luận trên bảng tin và trên diễn đàn, rồi báo cáo trả lời bốn câu hỏi: mọi người có mua không, cần đổi gì, có ai cần nó không và về kỹ thuật thì cái gì hỏng. Đây là một kịch bản được diễn thử, không phải dự báo. Những người này suy nghĩ bằng gói đăng ký của chính tác nhân của bạn; không cần khóa.",
       "zh": "让一群虚构的人来检查一段文字、一个网站的文件夹或一个网址。他们逐处浏览,在信息流和论坛里争论,报告则回答四个问题:人们会不会买,该改什么,有没有人需要它,以及技术上哪里坏了。这是演绎出来的情景,不是预测。这些人用你自己智能体的订阅来思考,不需要密钥。"
     },
-    "version": "0.0.4",
-    "surface": 4,
-    "minVobuda": "4.2.0",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/swarm-0.0.4.zip",
-    "sha256": "978e9b43a81d03af47677e650f1ba1606c78b34f60bc8b5fa6c9a90bcd8ff526"
+    "version": "0.0.5",
+    "surface": 5,
+    "minVobuda": "4.2.2",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/swarm-0.0.5.zip",
+    "sha256": "5f0a8a19b36ccc466e73567c1e9593b70b476a0cd9518e3435961c793b9c476e"
   }
 ]

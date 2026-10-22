@@ -9,6 +9,22 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.4 — 22 October 2026
+
+**The paths switch works at once.** Turn "Paths in the output are links" on or off in Settings → Terminal and the blocks already open follow it the next time you point at a path; you no longer have to open a new block for it.
+
+**Monitor on a Mac without a battery.** On a Mac mini or any desktop the Monitor block no longer falls into its error page; it says there is no battery.
+
+**The Director opens in your common folder.** A director always starts in your starting folder with no rules of its own. Once you name a project, it moves into that project's folder and takes that project's rules.
+
+**Modules keep up.** Every 6 hours the program looks at the modules you have installed, and a newer one is offered in the strip under the tabs, to install in one press. The Plugins screen no longer offers a version older than the one you have.
+
+**A calmer window.** Waiting on git, on the list of open ports, on a script or on a walk through a big folder no longer holds the window. The clipboard is no longer watched on the thread that draws it. A block you close leaves nothing behind in memory, and a fault in one terminal no longer stops the others.
+
+**Safer settings.** The question history of a workspace no longer travels into the settings archive or the iCloud copy. Restoring someone else's archive clears the agent start lines and closed words it brings, and says so. A second copy of vobuda started on the same settings folder says so instead of fighting over the files. A settings file is on the disk before it replaces the old one, so a power cut leaves the old one or the new one, never half.
+
+**Safer connections and reports.** The update check, a plugin download and a saved page speak only https. A saved page holds each file to 20 MB. The key that proves which block a command comes from is private from its first byte. A fault report drops tokens even when they sit inside JSON, in a web address or in a signed sign-in token.
+
 ## 4.2.3 — 16 October 2026
 
 Plugins made for the previous version are offered in Plugins again.

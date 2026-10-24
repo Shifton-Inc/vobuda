@@ -9,6 +9,12 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.5 — 23 October 2026
+
+**Remote work, a new module.** Pair two of your Macs by pasting a text on one and then on the other and comparing six words. After that the people a director hires can work on the other Mac: their shells, agents and tests run there, while the director and your own blocks stay here. It is off until you switch it on, and it has to be installed on both Macs.
+
+**Paths in the output are links.** The switch for it is gone: a path an agent shows is a link on a plain click, and a click first asks where to open it. A path that lives in another project's folder is found below your block's folder and the folders above it, and one that was broken over several lines is joined into one.
+
 ## 4.2.4 — 22 October 2026
 
 **The paths switch works at once.** Turn "Paths in the output are links" on or off in Settings → Terminal and the blocks already open follow it the next time you point at a path; you no longer have to open a new block for it.

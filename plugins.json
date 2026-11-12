@@ -177,11 +177,11 @@
       "vi": "Hãy nói với giám đốc bạn cần gì: nó cho bạn xem bản phác và chi phí, bắt đầu khi bạn đồng ý, thuê người làm và giao cho bạn kết quả đã kiểm tra.",
       "zh": "告诉总监你需要什么：它会给你看草图和费用，等你说“好”再开始，请人来做，并把检查过的结果交给你。"
     },
-    "version": "0.1.10",
+    "version": "0.1.11",
     "surface": 5,
-    "minVobuda": "4.2.4",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.10.zip",
-    "sha256": "53be2c12ddbe6662c3000adf58fc4c50d1ca85eb5a4ab8761ebe732b4292e1f6"
+    "minVobuda": "4.2.6",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.11.zip",
+    "sha256": "d3a8b2652ebc9d35849d0a6c55f21967d7eb3e0182cb11176f20f341f5d261b4"
   },
   {
     "id": "map",
@@ -269,11 +269,27 @@
       "vi": "Xem cả thư mục trong một cái nhìn: nó gồm những gì, các phần liên kết với nhau ra sao, điều gì đã thay đổi, điều gì bị hỏng và tác nhân nhớ những gì. Bản đồ tự đọc thư mục, không dùng AI, và chỉ giao việc cho tác nhân của bạn khi bạn bấm.",
       "zh": "一眼看清整个文件夹:它由什么组成、各部分如何关联、改动了什么、哪里坏了、智能体记得什么。地图自己读取文件夹,不使用 AI,只有在你点击时才会把任务交给你的智能体。"
     },
-    "version": "0.0.4",
+    "version": "0.0.5",
     "surface": 5,
     "minVobuda": "4.2.2",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/map-0.0.4.zip",
-    "sha256": "4df22b421b406702c104d05f0043822e65c8dcf1fb3ea9a5110256cfebb6e596"
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/map-0.0.5.zip",
+    "sha256": "5d88025840defd76e2355ea1adb014b2725a4837b3e398dc9b84c9a6f824bbbd"
+  },
+  {
+    "id": "notes",
+    "name": {
+      "en": "Notes",
+      "ru": "Заметки"
+    },
+    "description": {
+      "en": "One list of notes for every project, at the right end of the top strip: press a note to unfold it, press its text to hand it to the agent in front of you, and any agent adds to it when you say «add to the notes».",
+      "ru": "Один список заметок на все проекты, справа в верхней полосе: нажмите на заметку — она раскроется, нажмите на её текст — он уйдёт агенту перед вами, а любой агент допишет в неё, когда вы скажете «оставь в заметках»."
+    },
+    "version": "0.0.1",
+    "surface": 7,
+    "minVobuda": "4.2.6",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/notes-0.0.1.zip",
+    "sha256": "7013efa30dd56624eb83390f97932833ce56ab9be456a8e0860958ae6fbf7c1e"
   },
   {
     "id": "remote",

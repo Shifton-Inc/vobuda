@@ -1,19 +1,19 @@
 {
-  "version": "4.2.6",
-  "released": "2026-11-11",
-  "url": "https://vobuda.com/vobuda-4.2.6-macos-arm64.pkg",
-  "sha256": "11413175bb37a397721530941c7856dd1089266412e1551d0859129bffe91380",
-  "size": 11119673,
+  "version": "4.2.7",
+  "released": "2026-11-12",
+  "url": "https://vobuda.com/vobuda-4.2.7-macos-arm64.pkg",
+  "sha256": "85b7dc2dbb14ebc29e24bf60a8fd1e6b899bb67b9e3309a65cfa83b2b691c562",
+  "size": 11148709,
   "macos": {
     "arm64": {
-      "url": "https://vobuda.com/vobuda-4.2.6-macos-arm64.pkg",
-      "sha256": "11413175bb37a397721530941c7856dd1089266412e1551d0859129bffe91380",
-      "size": 11119673
+      "url": "https://vobuda.com/vobuda-4.2.7-macos-arm64.pkg",
+      "sha256": "85b7dc2dbb14ebc29e24bf60a8fd1e6b899bb67b9e3309a65cfa83b2b691c562",
+      "size": 11148709
     },
     "x86_64": {
-      "url": "https://vobuda.com/vobuda-4.2.6-macos-x86_64.pkg",
-      "sha256": "55c1052ebe3b02ea91f819f14f61c509eecf7f909b19e442940e6c5d62df6468",
-      "size": 11806717
+      "url": "https://vobuda.com/vobuda-4.2.7-macos-x86_64.pkg",
+      "sha256": "54b99c924de6303382b1920eb995176a827e8c6e248b6911c73b64cc9d1df292",
+      "size": 11836045
     }
   },
   "minimumSystemVersion": "10.15",

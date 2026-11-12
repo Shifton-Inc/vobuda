@@ -9,6 +9,22 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.7 — 12 November 2026
+
+**A double-click on the ☕ chip is one press.** It no longer lets the Mac go and takes it back in the same moment; two quick clicks end where one click would. Both of the chip's tips now say what holds no power assertion up: a closed lid still sends the Mac to sleep.
+
+**After an update, the What changed panel no longer swallows the first press on the ☕ chip:** the press closes the panel and flips the chip.
+
+**Rules belong to their project.** A rule you write in one project's card is kept for that project, and a director, a builder or a new hire of another project is never told it. A rule can also be kept for all projects: the Add field has a choice beside it, "This project only" or "All projects", and the rules for all projects show in every card under "For all projects". A director adds one with `team rule add --all`, so update the Director in Plugins; it needs this version.
+
+**A director hears when you change the cap.** Pick a share of the weekly limit and every working director is told at once, not when it hits a refused hire.
+
+**A director is reminded how much is left.** Every time the Watchdog looks in, it tells each director how much of the week and of the 5-hour limit is used, how much is left to your cap, and how many of its registered pieces are merged.
+
+**A director is told when its work is not registered.** A piece handed to a builder without a registered piece does not count on the Progress tab, which then reads 0 %. The director is now told so, and how to register it.
+
+**Notes carries its name and description in every language of the program.** Update Notes in Plugins.
+
 ## 4.2.6 — 11 November 2026
 
 **Copying no longer crashes the program.** 4.2.5 could close itself while an agent copied to the clipboard many times in a row. vobuda now looks at the clipboard only when you press something, and only in the way macOS allows.

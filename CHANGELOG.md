@@ -9,6 +9,26 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.6 — 11 November 2026
+
+**Copying no longer crashes the program.** 4.2.5 could close itself while an agent copied to the clipboard many times in a row. vobuda now looks at the clipboard only when you press something, and only in the way macOS allows.
+
+**The model menu always offers the newest model.** Every family, Fable included, is named from your account's own list of models, so the day a new model comes out the menu names it and runs it, with no update of vobuda. Until now Fable 5.1 stayed in the menu after Fable 5.2 had come out.
+
+**Addresses of files and web pages.** An address like `file:///Users/…/page.html` that an agent writes as plain text is a link now. A click on an `.html` file opens it in your browser at once, without asking.
+
+**The ☕ chip is a switch.** It stays on the top strip all the time: one press keeps the machine awake until you press again, the next press lets it sleep. You no longer go to Settings to turn it back on.
+
+**The director's progress card tells the truth.** It checks what was really merged and looks over the list by itself every five minutes, so you no longer send screenshots to have it corrected. With a long list it opens at the bottom, on what is left, and a piece whose builder left says so.
+
+**A cap on the weekly limit beside the card.** Left of "N% done" a drop-down from 5 to 100 % says up to what share of your weekly limit the director may work. It is the same setting as in the card's Team settings.
+
+**Notes, a new module.** One list of notes for all your projects, behind a button at the right end of the top strip. It opens a panel over the window that you can make wider: notes are numbered, a press on one unfolds it, a press on its text hands it to the agent in front of you to start on. Say "add to the notes" and any agent writes there. Install it in Plugins.
+
+**Modules cost less.** A module's panel that you cannot see — behind another tab, in a folded block — stops drawing. A long request a module gives an agent is pasted once, not up to three times, so you no longer pay for the copies.
+
+**The director hires more cheaply.** Each member works on the cheapest model its part allows and asks a stronger model for advice only at hard points; the table of kinds of work, models and efforts is gone. The director's rules for checking cheaply are in the card's Team settings, one by one: switch each on or off, read or edit its text, and go back to the shipped text. Update the Director in Plugins to get both.
+
 ## 4.2.5 — 23 October 2026
 
 **Remote work, a new module.** Pair two of your Macs by pasting a text on one and then on the other and comparing six words. After that the people a director hires can work on the other Mac: their shells, agents and tests run there, while the director and your own blocks stay here. It is off until you switch it on, and it has to be installed on both Macs.

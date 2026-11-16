@@ -9,6 +9,30 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.2.8 — 16 November 2026
+
+**A panel you close can no longer stay drawn over the window.** If you shut the Notes panel (or any module's panel) just as the program was still drawing it, the panel could appear a moment later with no way to close it: its ×, Esc and the button on the top strip did nothing, and only a restart took it away. The program now closes a panel that is drawn after you closed it, remembers a close that came too early, and every few seconds closes any panel nothing holds. Every close is written in the log.
+
+**Notes has an alarm.** Give a note a date and time (a picker in the unfolded note, or `vobuda notes add "…" --due "2026-11-16 09:00"`) and when the time comes the Notes panel opens by itself, the note blinks and so does the button on the top strip. A press puts the blinking to sleep for 10 minutes; it blinks again after, until you hand the note to an agent or mark it done. Update Notes in Plugins; it needs this version.
+
+**Swarm and Design are no longer offered.** Hardly anyone used them, so they leave the Plugins list. If you have either installed, nothing is taken from you: Design keeps working in this version and goes in the next one, and the Swarm keeps working as the copy you installed, but it gets no more updates and is not offered to anyone new. You can remove either one in Plugins whenever you like.
+
+**A member can work on Codex.** When Codex is on this machine, signed in and has limit left, the director can hire a member on it. The director's card shows a line for each agent with its own cap, a Codex member's header names its model and effort, and a switch in Settings sends pictures, icons and SVG to Codex. Update the Director in Plugins; it needs this version.
+
+**The week figure is one figure, and a limit reset reaches every agent.** The card, `team progress`, the cap and the Watchdog read the same, newest reading of the week. When the limit drops (96 % to 20 %, say), every director and every member is told once.
+
+**A stuck member is noticed.** A piece that is late, or a member silent for ten minutes, is told to its director at once and again every five minutes until it acts, and to you after thirty minutes.
+
+**Progress shows the time left.** From the first minute each open piece shows the time spent beside the time expected, its own time left, its member's last step and a mark when it is late.
+
+**The ☕ chip keeps the display on, and writes less.** The hold takes the screen the way you last chose it and remembers it across a restart. The file that holds it was rewritten every second while a hold had no end; it is now written only when something changes.
+
+**Git is read less often.** One setting, "Read git every" (five minutes unless you choose), sets how often the window asks git what each member's copy has committed, for the summary, the progress card and the test conveyor. A member's finished turn is still read at once.
+
+**The window uses less processor.** With nobody at it the window drew itself about nine times a second; it now draws only when something has changed.
+
+**Usage counts and crash reports.** The program counts days of use, installed modules, its own actions and agents, with nothing that identifies a person, and sends them every two days. It is on, with an off switch in Settings → Data and privacy; where your region or time zone points to Europe, or cannot be read, the program asks first. Crash reports go under the same switch and carry no machine id.
+
 ## 4.2.7 — 12 November 2026
 
 **A double-click on the ☕ chip is one press.** It no longer lets the Mac go and takes it back in the same moment; two quick clicks end where one click would. Both of the chip's tips now say what holds no power assertion up: a closed lid still sends the Mac to sleep.

@@ -85,11 +85,11 @@
       "vi": "Hãy nói với giám đốc bạn cần gì: nó cho bạn xem bản phác và chi phí, bắt đầu khi bạn đồng ý, thuê người làm và giao cho bạn kết quả đã kiểm tra.",
       "zh": "告诉总监你需要什么：它会给你看草图和费用，等你说“好”再开始，请人来做，并把检查过的结果交给你。"
     },
-    "version": "0.1.14",
+    "version": "0.1.13",
     "surface": 5,
-    "minVobuda": "4.3.0",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.14.zip",
-    "sha256": "a60544357abb9914eaf981ec6ab9a403e2835b0e2fa6479d8f19701567ca1830"
+    "minVobuda": "4.2.8",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.13.zip",
+    "sha256": "7ec0a783505fb1125f7be43b724ac9a9e136b293bc9ec3dd561769effece92ee"
   },
   {
     "id": "map",

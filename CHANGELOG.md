@@ -9,6 +9,26 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.3.1 — 21 November 2026
+
+**Members start again exactly as in 4.2.8.** 4.3.0 started members so strictly that on most machines it refused to start them at all: a plugin or hook of your own in Claude, a Claude Code update, a setting of your own in Codex, or a project's own `.claude` settings was enough. A member now starts the way it did in 4.2.8, and a hire says "hired" as soon as its block is on the screen.
+
+**No "Start Codex with restrictions" card.** A Codex member starts without asking you anything, as before.
+
+**The Rules tab says what it does for now.** Rules are recorded and told to every member in words, but they are not enforced on members yet; a line above them says so.
+
+**A member hired to read reads and writes again, as in 4.2.8.** The read-only start that 4.3.0 gave it is gone.
+
+**You choose which agent the director runs on.** In Settings → Agents, "Director on Claude" and "Director on Codex": with one ticked the director starts on it at once, and with both ticked a small card in the middle of the window asks which one you want.
+
+**A right click on a member's header opens its card:** its agent, model, effort, advisor, context, task, time and last step. The header also shows how full its context is, as a percentage.
+
+**Claude picks a member's model.** "Default model for Claude members" now opens on "Claude decides", so a member you did not give a model starts on the one Claude Code itself would use. A model you choose yourself still wins.
+
+**The commands menu speaks your language again.** It shows the names in your language, such as "compact the conversation", with the command under each name.
+
+**Linux packages for ordinary x86_64 computers are back.**
+
 ## 4.3.0 — 20 November 2026
 
 **The window keeps the team's rules, and you approve every change.** A new Rules tab shows what the team may do: folders, network, models, pushes. A member starts inside those limits, in its own copy, and cannot change them; a director or a member may only ask, and a change takes effect after you confirm it with Touch ID or your password.

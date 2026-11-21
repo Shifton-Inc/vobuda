@@ -9,30 +9,6 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
-## 4.3.0 — 20 November 2026
-
-**The window keeps the team's rules, and you approve every change.** A new Rules tab shows what the team may do: folders, network, models, pushes. A member starts inside those limits, in its own copy, and cannot change them; a director or a member may only ask, and a change takes effect after you confirm it with Touch ID or your password.
-
-**Readers stay readers.** A member hired to look something up or to review starts read-only in a Git project: it reads and runs `git status`, and writes only in a scratch folder of its own. A hire that could not start now says so, and why, instead of "hired".
-
-**The skills and commands menus show a skill's full description.** A press on the description opens it in full; a press on the name types the command without sending it. Beside a folder of skills you can add your own shortcut, a chip that types it; removing one asks first.
-
-**A right click on a member's strip shows who it is:** its agent, model, effort, advisor, how full its context is and the piece it works on.
-
-**The board tells the truth about finished work.** A piece really merged shows done ✓; a merge that was refused shows in red, with the reason.
-
-**No false alarms about stuck members.** A member that keeps printing is no longer reported as stuck; one that is silent still is.
-
-**Reports go to their own director.** With two windows whose members share a name, each report reaches the director that hired its member.
-
-**Notices go only to directors that are working.** A closed or idle director is no longer woken by them.
-
-**Members on Codex.** Codex no longer calls its own notification in a loop, a member starts on a model your ChatGPT account can use, and its conversation leaves Codex's Recent list when it is dismissed.
-
-**Claude members start on the model you set.** "Default model for Claude members" in the Director panel, Sonnet unless you choose.
-
-**The team cleans up after itself.** A dismissed member's copy and branch are removed, with a recovery branch kept for 14 days. Update the Director in Plugins; it needs this version.
-
 ## 4.2.8 — 16 November 2026
 
 **A panel you close can no longer stay drawn over the window.** If you shut the Notes panel (or any module's panel) just as the program was still drawing it, the panel could appear a moment later with no way to close it: its ×, Esc and the button on the top strip did nothing, and only a restart took it away. The program now closes a panel that is drawn after you closed it, remembers a close that came too early, and every few seconds closes any panel nothing holds. Every close is written in the log.

@@ -85,11 +85,11 @@
       "vi": "Hãy nói với giám đốc bạn cần gì: nó cho bạn xem bản phác và chi phí, bắt đầu khi bạn đồng ý, thuê người làm và giao cho bạn kết quả đã kiểm tra.",
       "zh": "告诉总监你需要什么：它会给你看草图和费用，等你说“好”再开始，请人来做，并把检查过的结果交给你。"
     },
-    "version": "0.1.15",
+    "version": "0.1.16",
     "surface": 5,
-    "minVobuda": "4.3.1",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.15.zip",
-    "sha256": "e144ded8e1df1cb09ab9ba05e7942cc919c9631b4c9ab991453c0fa479cfd282"
+    "minVobuda": "4.3.2",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/director-0.1.16.zip",
+    "sha256": "cb1134c49f221d4805c8b0790e192fca2f8a825612d064f623c3e2f9c38b4248"
   },
   {
     "id": "map",
@@ -177,11 +177,11 @@
       "vi": "Xem cả thư mục trong một cái nhìn: nó gồm những gì, các phần liên kết với nhau ra sao, điều gì đã thay đổi, điều gì bị hỏng và tác nhân nhớ những gì. Bản đồ tự đọc thư mục, không dùng AI, và chỉ giao việc cho tác nhân của bạn khi bạn bấm.",
       "zh": "一眼看清整个文件夹:它由什么组成、各部分如何关联、改动了什么、哪里坏了、智能体记得什么。地图自己读取文件夹,不使用 AI,只有在你点击时才会把任务交给你的智能体。"
     },
-    "version": "0.0.5",
+    "version": "0.0.6",
     "surface": 5,
     "minVobuda": "4.2.2",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/map-0.0.5.zip",
-    "sha256": "5d88025840defd76e2355ea1adb014b2725a4837b3e398dc9b84c9a6f824bbbd"
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/map-0.0.6.zip",
+    "sha256": "e6d62b419c15535529744cdd1ac8533502f120e0c62b9d11e4cbed16f8b9cca0"
   },
   {
     "id": "notes",
@@ -361,10 +361,10 @@
       "vi": "Cho phép những người mà giám đốc thuê làm việc trên một máy Mac khác của bạn. Ghép đôi hai máy Mac bằng cách dán một đoạn văn bản sang đó rồi dán lại và so sánh sáu từ; giám đốc và các khối của riêng bạn ở lại đây, còn shell, tác nhân và bài kiểm thử của các thành viên chạy ở đó. Tắt cho đến khi bạn bật, và phải được cài trên cả hai máy Mac.",
       "zh": "让总监雇用的人在你的另一台 Mac 上工作。把一段文本粘贴过去再粘贴回来，并核对六个词，即可配对两台 Mac；总监和你自己的区块留在这里，成员的 shell、代理和测试在那边运行。开启前处于关闭状态，且两台 Mac 都必须安装。"
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "surface": 6,
-    "minVobuda": "4.2.5",
-    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/remote-0.0.1.zip",
-    "sha256": "93dcba9ed4480645b558637b39dc021dfc7f0c846a753ffc1c9ee1bd94d6996d"
+    "minVobuda": "4.3.2",
+    "from": "https://raw.githubusercontent.com/Shifton-Inc/vobuda/main/plugins/remote-0.0.2.zip",
+    "sha256": "d4cfaacb9491b720c4f3cf6029f987b2711f98658634d362a13b6ff4276ce666"
   }
 ]

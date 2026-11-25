@@ -9,6 +9,22 @@ installs it: `curl -fsSL https://vobuda.com/install.sh | sh`.
 
 ---
 
+## 4.3.2 — 25 November 2026
+
+**Typing over a selection in an agent's input replaces it, as in a text editor.** Select a word with a double click or a drag, then type a letter or start a word: the selection goes and your text takes its place. Cmd+V with text or a picture replaces the selection the same way, and a Cmd+C between selecting and typing no longer spoils it. This works in Claude Code's full-screen mode too.
+
+**The director starts on the agent you have.** On its first start vobuda looks at which agents are on this computer. With only Codex, the director runs on Codex without asking; with only Claude, on Claude; with both, both are ticked and the small card asks which one you want. Ticks you set yourself are kept.
+
+**Remote work across the internet.** Another Mac, even one in another country, can do the work: Remote work on that Mac shows a number, you type it into vobuda on yours, and the two find each other through Tor, which is built into the program. It is free and needs no server of ours. When the two Macs can reach each other directly, the work goes directly; otherwise it stays on Tor. For safety, no number is given while the Mac that does the work still lets people in with a password; vobuda then shows the one Terminal line that turns that off. Mac only. Update Remote work in Plugins; it needs this version.
+
+**The Map shows who works where.** While a team works, the Map lists its members in a corner, puts a badge on each part whose files a member is working on, and names the member in that part's card. Update the Map in Plugins.
+
+**The director picks each member's model by the work.** When you leave the model to Claude, the director gives a cheaper model to lookups and simple work and a stronger one to hard work and every review. A model you name still wins, and the member's card says who chose its model. Update the Director in Plugins; it needs this version.
+
+**The window works the processor less while agents run.** The agent bar's clock no longer redraws the whole bar every second, and a member's mark is redrawn only when it changes.
+
+**Terminals start when the settings folder has a long path.** With vobuda's settings folder under a long path (folder names in Cyrillic, for example), every terminal could fail with "the keeper did not answer". Terminals now start wherever the folder is.
+
 ## 4.3.1 — 21 November 2026
 
 **Members start again exactly as in 4.2.8.** 4.3.0 started members so strictly that on most machines it refused to start them at all: a plugin or hook of your own in Claude, a Claude Code update, a setting of your own in Codex, or a project's own `.claude` settings was enough. A member now starts the way it did in 4.2.8, and a hire says "hired" as soon as its block is on the screen.
